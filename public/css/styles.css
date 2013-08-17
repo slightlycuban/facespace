@@ -173,7 +173,7 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 20px;
   color: #333333;
   background-color: white; }
@@ -466,7 +466,7 @@ p {
 
 .lead {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 21px;
   font-weight: 200;
   line-height: 30px; }
 
@@ -544,34 +544,34 @@ h3 {
   line-height: 40px; }
 
 h1 {
-  font-size: 55px; }
+  font-size: 38.5px; }
 
 h2 {
-  font-size: 45px; }
+  font-size: 31.5px; }
 
 h3 {
-  font-size: 35px; }
+  font-size: 24.5px; }
 
 h4 {
-  font-size: 25px; }
+  font-size: 17.5px; }
 
 h5 {
-  font-size: 20px; }
+  font-size: 14px; }
 
 h6 {
-  font-size: 17px; }
+  font-size: 11.9px; }
 
 h1 small {
-  font-size: 35px; }
+  font-size: 24.5px; }
 
 h2 small {
-  font-size: 25px; }
+  font-size: 17.5px; }
 
 h3 small {
-  font-size: 20px; }
+  font-size: 14px; }
 
 h4 small {
-  font-size: 20px; }
+  font-size: 14px; }
 
 .page-header {
   padding-bottom: 9px;
@@ -662,7 +662,7 @@ blockquote {
   border-left: 5px solid #eeeeee; }
   blockquote p {
     margin-bottom: 0;
-    font-size: 25px;
+    font-size: 17.5px;
     font-weight: 300;
     line-height: 1.25; }
   blockquote small {
@@ -701,7 +701,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 18px;
+  font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -718,7 +718,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 19px;
+  font-size: 13px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -757,7 +757,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 21px;
   line-height: 40px;
   color: #333333;
   border: 0;
@@ -771,7 +771,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 20px; }
 
@@ -806,7 +806,7 @@ input[type="color"],
   height: 20px;
   padding: 4px 6px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 20px;
   color: #555555;
   -webkit-border-radius: 4px;
@@ -1288,7 +1288,7 @@ select:focus:invalid {
   .input-prepend .uneditable-input,
   .input-prepend .dropdown-menu,
   .input-prepend .popover {
-    font-size: 20px; }
+    font-size: 14px; }
   .input-append input,
   .input-append select,
   .input-append .uneditable-input,
@@ -1316,7 +1316,7 @@ select:focus:invalid {
     height: 20px;
     min-width: 16px;
     padding: 4px 5px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 20px;
     text-align: center;
@@ -2473,7 +2473,7 @@ button.close {
   *zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
   vertical-align: middle;
@@ -2540,7 +2540,7 @@ button.close {
 
 .btn-large {
   padding: 11px 19px;
-  font-size: 25px;
+  font-size: 17.5px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px; }
@@ -2551,7 +2551,7 @@ button.close {
 
 .btn-small {
   padding: 2px 10px;
-  font-size: 17px;
+  font-size: 11.9px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
@@ -2566,7 +2566,7 @@ button.close {
 
 .btn-mini {
   padding: 0px 6px;
-  font-size: 15px;
+  font-size: 10.5px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
@@ -2820,16 +2820,16 @@ input[type="submit"].btn {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 20px; }
+  font-size: 14px; }
 
 .btn-group > .btn-mini {
-  font-size: 15px; }
+  font-size: 10.5px; }
 
 .btn-group > .btn-small {
-  font-size: 17px; }
+  font-size: 11.9px; }
 
 .btn-group > .btn-large {
-  font-size: 25px; }
+  font-size: 17.5px; }
 
 .btn-group > .btn:first-child {
   margin-left: 0;
@@ -3925,7 +3925,7 @@ input[type="submit"].btn {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 25px; }
+  font-size: 17.5px; }
 .pagination-large ul > li:first-child > a,
 .pagination-large ul > li:first-child > span {
   -webkit-border-top-left-radius: 6px;
@@ -3967,12 +3967,12 @@ input[type="submit"].btn {
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 17px; }
+  font-size: 11.9px; }
 
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 0px 6px;
-  font-size: 15px; }
+  font-size: 10.5px; }
 
 .pager {
   margin: 20px 0;
@@ -4378,7 +4378,7 @@ a.thumbnail:focus {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 16.92px;
+  font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
   color: white;
