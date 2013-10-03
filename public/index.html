@@ -9,7 +9,7 @@
       $(function() {
         var $github = $('#github');
         $.ajax({
-          url: "https://api.github.com/users/slightlycuban/events/public",
+          url: "https://api.github.com/users/slightlycuban/events/public?number=1",
           dataType: 'json',
           success: function(events) {
             var push = events[0];
@@ -29,6 +29,24 @@
             });
           }
         });
+
+        $wordpress = $("#wordpress");
+        $.ajax({
+          url: 'https://public-api.wordpress.com/rest/v1/sites/exiledpenguin.wordpress.com/posts/?number=1&callback=?',
+          dataType: 'json',
+          success: function(feed) {
+            var post = feed.posts[0];
+            $wordpress.append('<p>' + post.title + '</p>');
+            $wordpress.append('<p>' + post.excerpt + '</p>')
+            $wordpress.append('<p>On ' + post.date + '</p>')
+          }
+        });
+      });
+
+      $(document).ajaxError(function( event, jqxhr, settings, exception ) {
+        console.log(event);
+        console.log(exception);
+        console.log(settings);
       });
     </script>
 	</head>
@@ -49,8 +67,11 @@
 			</div>
 		</div>
     <div class="row">
-      <div class="span3" id="github">
+      <div class="span4" id="github">
         <h4>Latest commit:</h4>
+      </div>
+      <div class="span4" id="wordpress">
+        <h4>Latest post:</h4>
       </div>
     </div>
 		<hr>
