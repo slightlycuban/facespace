@@ -4,6 +4,33 @@
 		<title>The Website of Michael Tracy</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="/css/styles.css">
+    <script src="js/jquery.min.js"></script>
+    <script>
+      $(function() {
+        var $github = $('#github');
+        $.ajax({
+          url: "https://api.github.com/users/slightlycuban/events/public",
+          dataType: 'json',
+          success: function(events) {
+            var push = events[0];
+            if (push.type !== "PushEvent") {
+              return;
+            }
+            
+            var commit = push.payload.commits[0];
+            $github.append('<p id="message"><span class="sha">' + commit.sha + '</span> ' + commit.message + '</p>');
+
+            $.ajax({
+              url: push.repo.url,
+              dataType: 'json',
+              success: function(repo) {
+                $github.append('<p>In <a href="' + repo.html_url +'">' + repo.name + '</a></p>');
+              }
+            });
+          }
+        });
+      });
+    </script>
 	</head>
 	<body class="container">
 		<header class="page-header media">
@@ -21,6 +48,11 @@
 			<div class="span11">
 			</div>
 		</div>
+    <div class="row">
+      <div class="span3" id="github">
+        <h4>Latest commit:</h4>
+      </div>
+    </div>
 		<hr>
 		<footer class="page-footer">
 			<p>&copy; 2013 Michael Tracy</p>
