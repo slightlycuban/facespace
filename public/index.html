@@ -18,7 +18,7 @@
             }
             
             var commit = push.payload.commits[0];
-            $github.append('<p id="message"><span class="sha">' + commit.sha + '</span> ' + commit.message + '</p>');
+            $github.append('<p id="message"><a href="' + commit.url + '">' + commit.message + '</a></p><p><span class="sha">' + commit.sha + '</span></p>');
 
             $.ajax({
               url: push.repo.url,
@@ -36,9 +36,27 @@
           dataType: 'json',
           success: function(feed) {
             var post = feed.posts[0];
-            $wordpress.append('<p>' + post.title + '</p>');
-            $wordpress.append('<p>' + post.excerpt + '</p>')
+            $wordpress.append('<p><a href="' + post.URL + '">' + post.title + '</a></p>');
             $wordpress.append('<p>On ' + post.date + '</p>')
+          }
+        });
+
+        $so = $("#so");
+        $.ajax({
+          url: 'https://api.stackexchange.com/2.1/users/2372767/answers?page=1&pagesize=1&order=desc&sort=activity&site=stackoverflow',
+          dataType: 'json',
+          success: function(profile) {
+            var answer = profile.items[0];
+
+            $.ajax({
+              url: 'https://api.stackexchange.com/2.1/questions/' + answer.question_id + '?order=desc&sort=activity&site=stackoverflow',
+              dataType: 'json',
+              success: function(results) {
+                var question = results.items[0];
+                $so.append('<p>In <a href="' + question.link + '">' + question.title + '</a></p>');
+                $so.append('<p>With a score of ' + answer.score + '</p>');
+              }
+            });
           }
         });
       });
@@ -72,6 +90,9 @@
       </div>
       <div class="span4" id="wordpress">
         <h4>Latest post:</h4>
+      </div>
+      <div class="span4" id="so">
+        <h4>Latest answer:</h4>
       </div>
     </div>
 		<hr>
