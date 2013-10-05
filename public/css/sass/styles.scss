@@ -1,2 +1,102 @@
 @import "bootstrap/bootstrap";
 @import "bootstrap/responsive";
+
+body {
+	padding-top: 20px;
+}
+
+#header {
+	@extend .container;
+	@include border-radius(10px);
+	box-shadow: inset 0 0 5px 0 $grayLight;
+	box-sizing: border-box;
+	padding: 10px 0;
+
+	div {
+		text-align: center;
+	}
+
+	#name {
+		@extend .span6;
+		@extend [class*="span"];
+	}
+
+	#qrcode, #myself {
+		@extend .span3;
+		@extend [class*="span"];
+
+		text-align: center;
+
+		img {
+			max-width: 100%;
+			box-sizing: border-box;
+		}
+	}
+
+	#myself img {
+		@extend .img-circle;
+	}
+
+	#qrcode img {
+	}
+}
+
+#contact {
+	@extend .row;
+
+	nav {
+		@extend .span12;
+		@extend [class*="span"];
+		text-align: center;
+
+		ul {
+			@extend .nav;
+			@extend .nav-pills;
+			display: inline-block;
+
+			li {
+				display:inline;
+
+				a { float: left; }
+			}
+		}
+	}
+}
+
+#updates {
+	@extend .row;
+
+	> div {
+		@extend .span4;
+		@extend [class*="span"];
+		@include border-radius(10px);
+		@include box-sizing(border-box);
+		border: 1px solid $grayLighter;
+
+		> * {
+			margin: 10px;
+		}
+
+		h4 {
+			text-align: center;
+		}
+	}
+}
+
+#github {
+	.sha {
+		@extend code;
+		display: inline-block;
+		overflow: hidden;
+		max-width: 28px;
+
+		&:after {
+			content: "…";
+		}
+	}
+}
+
+#footer {
+	@extend .page-footer;
+	text-align: center;
+}
