@@ -3,7 +3,9 @@
 	<head>
 		<title>The Website of Michael Tracy</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <script src="js/jquery.min.js"></script>
     <script>
       $(function() {
@@ -18,13 +20,13 @@
             }
             
             var commit = push.payload.commits[0];
-            $github.append('<p id="message"><a href="' + commit.url + '">' + commit.message + '</a></p><p><span class="sha">' + commit.sha + '</span></p>');
+            $github.append('<p id="message"><span class="sha">' + commit.sha.substr(0, 5) + '</span> <a href="' + commit.url + '">' + commit.message + '</a></p>');
 
             $.ajax({
               url: push.repo.url,
               dataType: 'json',
               success: function(repo) {
-                $github.append('<p>In <a href="' + repo.html_url +'">' + repo.name + '</a></p>');
+                $github.append('<p class="byline">In <a href="' + repo.html_url +'">' + repo.name + '</a></small>');
               }
             });
           }
@@ -36,8 +38,8 @@
           dataType: 'json',
           success: function(feed) {
             var post = feed.posts[0];
-            $wordpress.append('<p><a href="' + post.URL + '">' + post.title + '</a></p>');
-            $wordpress.append('<p>On ' + post.date + '</p>')
+            $wordpress.append('<p><a href="' + post.URL + '">' + post.title + '</a></small>');
+            $wordpress.append('<p class="byline">On ' + new Date(post.date).toLocaleString() + '</small>')
           }
         });
 
@@ -53,8 +55,8 @@
               dataType: 'json',
               success: function(results) {
                 var question = results.items[0];
-                $so.append('<p>In <a href="' + question.link + '">' + question.title + '</a></p>');
-                $so.append('<p>With a score of ' + answer.score + '</p>');
+                $so.append('<p>In <a href="' + question.link + '">' + question.title + '</a></small>');
+                $so.append('<p class="byline">With a score of ' + answer.score + '</small>');
               }
             });
           }
@@ -69,35 +71,44 @@
     </script>
 	</head>
 	<body class="container">
-		<header class="page-header media">
-			<h1>Michael Tracy</h1>
-			<p>A place for me to put stuff</p>
-		</header>
-		<div class=row>
-			<nav class="span1">
-				<ul class="nav">
-					<li><a href="https://github.com/michaeltracy/">Github</a></li>
-					<li><a href="https://twitter.com/slightlycuban">Twitter</a></li>
-					<li><a href="https://exiledpenguin.wordpress.com/">Blog</a></li>
+		<header id="header">
+      <div class="row">
+        <div id="myself">
+          <img src="/images/photo.jpg">
+        </div>
+        <div id="name">
+          <h1 class="media-body">
+            <small>the website of</small><br>
+            Michael Tracy
+          </h1>
+        </div>
+        <div id=qrcode>
+          <img src="/images/qrcode.png">
+        </div>
+      </div>
+    </header>
+		<section id="contact">
+			<nav>
+				<ul>
+          <li><a href="https://twitter.com/slightlycuban">@SlightlyCuban</a></li>
+          <li><a href="http://www.linkedin.com/in/matracy/">my LinkedIn profile</a></li>
 				</ul>
 			</nav>
-			<div class="span11">
-			</div>
-		</div>
-    <div class="row">
+		</section>
+    <div id="updates">
       <div class="span4" id="github">
-        <h4>Latest commit:</h4>
+        <h4>Github</h4>
       </div>
       <div class="span4" id="wordpress">
-        <h4>Latest post:</h4>
+        <h4>Blog</h4>
       </div>
       <div class="span4" id="so">
-        <h4>Latest answer:</h4>
+        <h4>Stack Overflow</h4>
       </div>
     </div>
-		<hr>
-		<footer class="page-footer">
-			<p>&copy; 2013 Michael Tracy</p>
+		<br>
+		<footer id="footer">
+			<small>&copy; 2013 Michael Tracy</small>
 		</footer>
 	</body>
 </html>

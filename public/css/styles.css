@@ -6138,16 +6138,20 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     overflow: visible !important; } }
 html {
   height: 100%;
-  background: url(images/header_bg.jpg) no-repeat center top;
+  background: url(/images/header_bg.jpg) no-repeat left top;
   background-color: rgba(19, 26, 40, 0.95);
+  -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover; }
 
 body {
-  -webkit-box-shadow: 0 0 15px 0 black;
-  -moz-box-shadow: 0 0 15px 0 black;
-  box-shadow: 0 0 15px 0 black;
-  min-height: 100%;
+  -webkit-border-radius: 0 0 15px 15px;
+  -moz-border-radius: 0 0 15px 15px;
+  border-radius: 0 0 15px 15px;
+  border-color: rgba(104, 133, 184, 0.95);
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
   padding: 0 20px; }
 
 #header {
@@ -6175,6 +6179,8 @@ body {
     #header #qrcode img, #header #myself img {
       max-width: 100%;
       box-sizing: border-box; }
+  #header #qrcode img {
+    opacity: 0.85; }
 
 #contact nav {
   text-align: center; }
@@ -6208,12 +6214,9 @@ body {
     margin: 0;
     padding: 10px; }
 
-#github .sha {
-  display: inline-block;
-  overflow: hidden;
-  max-width: 28px; }
-  #github .sha:after {
-    content: "…"; }
+#github .sha:after {
+  content: "…"; }
 
 #footer {
+  margin-bottom: 20px;
   text-align: center; }

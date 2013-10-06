@@ -5,17 +5,18 @@
 
 html {
 	height: 100%;
-	background: url(images/header_bg.jpg) no-repeat center top;
+	background: url(/images/header_bg.jpg) no-repeat left top;
 	background-color: darken($bodyBackground, 5%);
-	-moz-background-size: cover;
-	background-size: cover;
+	@include background-size(cover);
 
 	//@include gradient-vertical(rgba(0, 0, 0, 0), darken($bodyBackground, 5%));
 }
 
 body {
-	@include box-shadow(0 0 15px 0 black);
-	min-height: 100%;
+	@include border-radius(0 0 15px 15px);
+	border-color: lighten($bodyBackground, 40%);
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
 	padding: 0 20px;
 }
 
@@ -63,6 +64,7 @@ body {
 	}
 
 	#qrcode img {
+		opacity: 0.85;
 	}
 }
 
@@ -119,9 +121,6 @@ body {
 #github {
 	.sha {
 		@extend code;
-		display: inline-block;
-		overflow: hidden;
-		max-width: 28px;
 
 		&:after {
 			content: "…";
@@ -130,5 +129,6 @@ body {
 }
 
 #footer {
+	margin-bottom: 20px;
 	text-align: center;
 }
