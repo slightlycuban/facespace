@@ -1,7 +1,7 @@
 require 'sass/plugin/rack'
 
 use Rack::Static,
-  urls: ["/", "/images", "/js", "/css"],
+  urls: ["/images", "/js", "/css"],
   root: "public"
 
 use Sass::Plugin::Rack
