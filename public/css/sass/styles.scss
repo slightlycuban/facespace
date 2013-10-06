@@ -3,17 +3,39 @@
 @import "bootstrap/bootstrap";
 @import "bootstrap/responsive";
 
+html {
+	height: 100%;
+	background: url(images/header_bg.jpg) no-repeat center top;
+	background-color: darken($bodyBackground, 5%);
+	-moz-background-size: cover;
+	background-size: cover;
+
+	//@include gradient-vertical(rgba(0, 0, 0, 0), darken($bodyBackground, 5%));
+}
+
 body {
-	padding-top: 20px;
+	@include box-shadow(0 0 15px 0 black);
+	min-height: 100%;
+	padding: 0 20px;
 }
 
 #header {
 	@extend .container;
 	@include border-radius(10px);
-	@include box-shadow(inset 0 0 5px 0 $grayLight);
+	@include box-shadow(inset 0 0 5px 0 $grayLighter);
 	@include box-sizing(border-box);
+	margin-top: 20px;
 	padding: 10px 0;
-	background-color: $grayLighter;
+	background-color: rgba(128, 128, 128, 0.5);
+
+	h1 {
+		text-shadow: 0px 2px 2px rgba(16, 16, 16, 1);
+		color: $grayDarker;
+
+		small {
+			color: $grayDark;
+		}
+	}
 
 	div {
 		text-align: center;
@@ -74,14 +96,22 @@ body {
 		@extend [class*="span"];
 		@include border-radius(10px);
 		@include box-sizing(border-box);
-		border: 1px solid $grayLighter;
+		background-color: $grayDarker;
+		overflow: hidden;
+		min-height: 135px;
 
 		> * {
 			margin: 10px;
 		}
 
 		h4 {
+			@include box-shadow(0 0 5px 0 $grayLighter);
+			text-shadow: 0px 1px 1px rgba(20, 20, 20, 1);
 			text-align: center;
+			background-color: rgba(0, 0, 0, 0.6);
+			color: $grayDarker;
+			margin: 0;
+			padding: 10px;
 		}
 	}
 }
