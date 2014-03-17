@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.section {
+  min-height: 250px;
+  background-position: fixed;
+}
+
+.topline {
+  background: blue;
+}
+
+.middle {
+  background-image: url('../images/carolina-1.jpg');
+}
+
+.more-middle {
+  background: yellow;
+}
+
+.bottom {
+  background-image: url('../images/carolina-2.jpg');
+}
+
