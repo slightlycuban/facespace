@@ -17,7 +17,6 @@ body {
 
 #header {
 	@include box-sizing(border-box);
-	margin-top: 20px;
 	padding: 10px 0;
 	background-color: rgba(128, 128, 128, 0.5);
 
@@ -56,6 +55,7 @@ body {
 	}
 
 	#qrcode img {
+		@extend .hidden-desktop;
 		//opacity: 0.85;
 	}
 }
@@ -84,6 +84,7 @@ body {
 
 #updates {
 	@extend .row;
+	background: white;
 
 	> div {
 		@extend .span4;

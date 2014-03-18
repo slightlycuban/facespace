@@ -4979,14 +4979,14 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .visible-tablet {
   display: none !important; }
 
-.hidden-desktop {
+.hidden-desktop, #header #qrcode img {
   display: none !important; }
 
 .visible-desktop {
   display: inherit !important; }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .hidden-desktop {
+  .hidden-desktop, #header #qrcode img {
     display: inherit !important; }
 
   .visible-desktop {
@@ -4998,7 +4998,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .hidden-tablet {
     display: none !important; } }
 @media (max-width: 767px) {
-  .hidden-desktop {
+  .hidden-desktop, #header #qrcode img {
     display: inherit !important; }
 
   .visible-desktop {
@@ -5946,7 +5946,6 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 20px;
   padding: 10px 0;
   background-color: rgba(128, 128, 128, 0.5); }
   #header h1 {
@@ -5971,22 +5970,24 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       #contact nav ul li a {
         float: left; }
 
-#updates > div {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #eeeeee;
-  overflow: hidden;
-  min-height: 135px; }
-  #updates > div > * {
-    margin: 10px; }
-  #updates > div h4 {
-    text-shadow: 0px 1px 1px #141414;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #eeeeee;
-    margin: 0;
-    padding: 10px; }
+#updates {
+  background: white; }
+  #updates > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    overflow: hidden;
+    min-height: 135px; }
+    #updates > div > * {
+      margin: 10px; }
+    #updates > div h4 {
+      text-shadow: 0px 1px 1px #141414;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #eeeeee;
+      margin: 0;
+      padding: 10px; }
 
 #github .sha:after {
   content: "…"; }
