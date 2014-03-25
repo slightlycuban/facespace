@@ -6154,6 +6154,9 @@ body {
   border-style: solid;
   padding: 0 20px; }
 
+h2, h3, h4 {
+  text-align: center; }
+
 #header {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -6191,6 +6194,35 @@ body {
       #contact nav ul li a {
         float: left; }
 
+#about {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 15px 0 #eeeeee;
+  -moz-box-shadow: 0 0 15px 0 #eeeeee;
+  box-shadow: 0 0 15px 0 #eeeeee;
+  border-color: rgba(174, 189, 216, 0.95);
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 20px;
+  background-color: #eeeeee;
+  max-width: 798px;
+  margin: 0 auto 20px; }
+  #about > * {
+    margin-bottom: 20px; }
+  #about p {
+    color: #333333;
+    font-size: 16px; }
+  #about h3 {
+    text-shadow: 0px 1px 1px #141414;
+    color: #555555; }
+
+#updates h3, #updates h4 {
+  text-shadow: 0px 1px 1px #141414;
+  color: #eeeeee; }
 #updates > div {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -6207,10 +6239,7 @@ body {
     -webkit-box-shadow: 0 0 5px 0 #222222;
     -moz-box-shadow: 0 0 5px 0 #222222;
     box-shadow: 0 0 5px 0 #222222;
-    text-shadow: 0px 1px 1px #141414;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-    color: #eeeeee;
     margin: 0;
     padding: 10px; }
 
