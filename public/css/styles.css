@@ -217,7 +217,7 @@ a:focus {
   .row:after, #contact:after, #updates:after {
     clear: both; }
 
-[class*="span"], #contact nav, #updates > div {
+[class*="span"], #contact nav, #updates #github, #updates #wordpress, #updates #so {
   float: left;
   min-height: 1px;
   margin-left: 20px; }
@@ -237,7 +237,7 @@ a:focus {
 .span3 {
   width: 220px; }
 
-.span4, #updates > div {
+.span4, #updates #github, #updates #wordpress, #updates #so {
   width: 300px; }
 
 .span5 {
@@ -309,7 +309,7 @@ a:focus {
     line-height: 0; }
   .row-fluid:after {
     clear: both; }
-  .row-fluid [class*="span"], .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates > div {
+  .row-fluid [class*="span"], .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates #github, #updates .row-fluid #github, .row-fluid #updates #wordpress, #updates .row-fluid #wordpress, .row-fluid #updates #so, #updates .row-fluid #so {
     display: block;
     width: 100%;
     min-height: 30px;
@@ -319,9 +319,9 @@ a:focus {
     float: left;
     margin-left: 2.12766%;
     *margin-left: 2.07447%; }
-  .row-fluid [class*="span"]:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates > div:first-child {
+  .row-fluid [class*="span"]:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates #github:first-child, #updates .row-fluid #github:first-child, .row-fluid #updates #wordpress:first-child, #updates .row-fluid #wordpress:first-child, .row-fluid #updates #so:first-child, #updates .row-fluid #so:first-child {
     margin-left: 0; }
-  .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #contact #updates > div + nav, #contact .row-fluid .controls-row #updates > div + nav, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #contact #updates > nav + div, #contact .row-fluid .controls-row #updates > nav + div, .row-fluid .controls-row #updates > div + div {
+  .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates #github + [class*="span"], #updates .row-fluid .controls-row #github + [class*="span"], .row-fluid .controls-row #updates #wordpress + [class*="span"], #updates .row-fluid .controls-row #wordpress + [class*="span"], .row-fluid .controls-row #updates #so + [class*="span"], #updates .row-fluid .controls-row #so + [class*="span"], .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #updates #contact #github + nav, #contact .row-fluid .controls-row #updates #github + nav, #updates .row-fluid .controls-row #contact #github + nav, #contact #updates .row-fluid .controls-row #github + nav, .row-fluid .controls-row #updates #contact #wordpress + nav, #contact .row-fluid .controls-row #updates #wordpress + nav, #updates .row-fluid .controls-row #contact #wordpress + nav, #contact #updates .row-fluid .controls-row #wordpress + nav, .row-fluid .controls-row #updates #contact #so + nav, #contact .row-fluid .controls-row #updates #so + nav, #updates .row-fluid .controls-row #contact #so + nav, #contact #updates .row-fluid .controls-row #so + nav, .row-fluid .controls-row #updates [class*="span"] + #github, #updates .row-fluid .controls-row [class*="span"] + #github, .row-fluid .controls-row #contact #updates nav + #github, #updates .row-fluid .controls-row #contact nav + #github, #contact .row-fluid .controls-row #updates nav + #github, #updates #contact .row-fluid .controls-row nav + #github, .row-fluid .controls-row #updates #github + #github, #updates .row-fluid .controls-row #github + #github, .row-fluid .controls-row #updates #wordpress + #github, #updates .row-fluid .controls-row #wordpress + #github, .row-fluid .controls-row #updates #so + #github, #updates .row-fluid .controls-row #so + #github, .row-fluid .controls-row #updates [class*="span"] + #wordpress, #updates .row-fluid .controls-row [class*="span"] + #wordpress, .row-fluid .controls-row #contact #updates nav + #wordpress, #updates .row-fluid .controls-row #contact nav + #wordpress, #contact .row-fluid .controls-row #updates nav + #wordpress, #updates #contact .row-fluid .controls-row nav + #wordpress, .row-fluid .controls-row #updates #github + #wordpress, #updates .row-fluid .controls-row #github + #wordpress, .row-fluid .controls-row #updates #wordpress + #wordpress, #updates .row-fluid .controls-row #wordpress + #wordpress, .row-fluid .controls-row #updates #so + #wordpress, #updates .row-fluid .controls-row #so + #wordpress, .row-fluid .controls-row #updates [class*="span"] + #so, #updates .row-fluid .controls-row [class*="span"] + #so, .row-fluid .controls-row #contact #updates nav + #so, #updates .row-fluid .controls-row #contact nav + #so, #contact .row-fluid .controls-row #updates nav + #so, #updates #contact .row-fluid .controls-row nav + #so, .row-fluid .controls-row #updates #github + #so, #updates .row-fluid .controls-row #github + #so, .row-fluid .controls-row #updates #wordpress + #so, #updates .row-fluid .controls-row #wordpress + #so, .row-fluid .controls-row #updates #so + #so, #updates .row-fluid .controls-row #so + #so {
     margin-left: 2.12766%; }
   .row-fluid .span1 {
     width: 6.38298%;
@@ -332,7 +332,7 @@ a:focus {
   .row-fluid .span3 {
     width: 23.40426%;
     *width: 23.35106%; }
-  .row-fluid .span4, .row-fluid #updates > div {
+  .row-fluid .span4, .row-fluid #updates #github, #updates .row-fluid #github, .row-fluid #updates #wordpress, #updates .row-fluid #wordpress, .row-fluid #updates #so, #updates .row-fluid #so {
     width: 31.91489%;
     *width: 31.8617%; }
   .row-fluid .span5 {
@@ -432,18 +432,28 @@ a:focus {
     margin-left: 102.12766%;
     *margin-left: 102.02128%; }
 
-[class*="span"].hide, #contact nav.hide, #updates > div.hide,
+[class*="span"].hide, #contact nav.hide, #updates .hide#github, #updates .hide#wordpress, #updates .hide#so,
 .row-fluid [class*="span"].hide,
 .row-fluid #contact nav.hide,
 #contact .row-fluid nav.hide,
-.row-fluid #updates > div.hide {
+.row-fluid #updates .hide#github,
+#updates .row-fluid .hide#github,
+.row-fluid #updates .hide#wordpress,
+#updates .row-fluid .hide#wordpress,
+.row-fluid #updates .hide#so,
+#updates .row-fluid .hide#so {
   display: none; }
 
-[class*="span"].pull-right, #contact nav.pull-right, #updates > div.pull-right,
+[class*="span"].pull-right, #contact nav.pull-right, #updates .pull-right#github, #updates .pull-right#wordpress, #updates .pull-right#so,
 .row-fluid [class*="span"].pull-right,
 .row-fluid #contact nav.pull-right,
 #contact .row-fluid nav.pull-right,
-.row-fluid #updates > div.pull-right {
+.row-fluid #updates .pull-right#github,
+#updates .row-fluid .pull-right#github,
+.row-fluid #updates .pull-right#wordpress,
+#updates .row-fluid .pull-right#wordpress,
+.row-fluid #updates .pull-right#so,
+#updates .row-fluid .pull-right#so {
   float: right; }
 
 .container {
@@ -992,47 +1002,127 @@ textarea::-webkit-input-placeholder {
 .input-xxlarge {
   width: 530px; }
 
-input[class*="span"],
+input[class*="span"], #updates input#github, #updates input#wordpress, #updates input#so,
 select[class*="span"],
+#updates select#github,
+#updates select#wordpress,
+#updates select#so,
 textarea[class*="span"],
+#updates textarea#github,
+#updates textarea#wordpress,
+#updates textarea#so,
 .uneditable-input[class*="span"],
 #contact nav.uneditable-input,
-#updates > div.uneditable-input,
+#updates .uneditable-input#github,
+#updates .uneditable-input#wordpress,
+#updates .uneditable-input#so,
 .row-fluid input[class*="span"],
+.row-fluid #updates input#github,
+#updates .row-fluid input#github,
+.row-fluid #updates input#wordpress,
+#updates .row-fluid input#wordpress,
+.row-fluid #updates input#so,
+#updates .row-fluid input#so,
 .row-fluid select[class*="span"],
+.row-fluid #updates select#github,
+#updates .row-fluid select#github,
+.row-fluid #updates select#wordpress,
+#updates .row-fluid select#wordpress,
+.row-fluid #updates select#so,
+#updates .row-fluid select#so,
 .row-fluid textarea[class*="span"],
+.row-fluid #updates textarea#github,
+#updates .row-fluid textarea#github,
+.row-fluid #updates textarea#wordpress,
+#updates .row-fluid textarea#wordpress,
+.row-fluid #updates textarea#so,
+#updates .row-fluid textarea#so,
 .row-fluid .uneditable-input[class*="span"],
 .row-fluid #contact nav.uneditable-input,
 #contact .row-fluid nav.uneditable-input,
-.row-fluid #updates > div.uneditable-input {
+.row-fluid #updates .uneditable-input#github,
+#updates .row-fluid .uneditable-input#github,
+.row-fluid #updates .uneditable-input#wordpress,
+#updates .row-fluid .uneditable-input#wordpress,
+.row-fluid #updates .uneditable-input#so,
+#updates .row-fluid .uneditable-input#so {
   float: none;
   margin-left: 0; }
 
-.input-append input[class*="span"],
+.input-append input[class*="span"], .input-append #updates input#github, #updates .input-append input#github, .input-append #updates input#wordpress, #updates .input-append input#wordpress, .input-append #updates input#so, #updates .input-append input#so,
 .input-append .uneditable-input[class*="span"],
 .input-append #contact nav.uneditable-input,
 #contact .input-append nav.uneditable-input,
-.input-append #updates > div.uneditable-input,
+.input-append #updates .uneditable-input#github,
+#updates .input-append .uneditable-input#github,
+.input-append #updates .uneditable-input#wordpress,
+#updates .input-append .uneditable-input#wordpress,
+.input-append #updates .uneditable-input#so,
+#updates .input-append .uneditable-input#so,
 .input-prepend input[class*="span"],
+.input-prepend #updates input#github,
+#updates .input-prepend input#github,
+.input-prepend #updates input#wordpress,
+#updates .input-prepend input#wordpress,
+.input-prepend #updates input#so,
+#updates .input-prepend input#so,
 .input-prepend .uneditable-input[class*="span"],
 .input-prepend #contact nav.uneditable-input,
 #contact .input-prepend nav.uneditable-input,
-.input-prepend #updates > div.uneditable-input,
+.input-prepend #updates .uneditable-input#github,
+#updates .input-prepend .uneditable-input#github,
+.input-prepend #updates .uneditable-input#wordpress,
+#updates .input-prepend .uneditable-input#wordpress,
+.input-prepend #updates .uneditable-input#so,
+#updates .input-prepend .uneditable-input#so,
 .row-fluid input[class*="span"],
+.row-fluid #updates input#github,
+#updates .row-fluid input#github,
+.row-fluid #updates input#wordpress,
+#updates .row-fluid input#wordpress,
+.row-fluid #updates input#so,
+#updates .row-fluid input#so,
 .row-fluid select[class*="span"],
+.row-fluid #updates select#github,
+#updates .row-fluid select#github,
+.row-fluid #updates select#wordpress,
+#updates .row-fluid select#wordpress,
+.row-fluid #updates select#so,
+#updates .row-fluid select#so,
 .row-fluid textarea[class*="span"],
+.row-fluid #updates textarea#github,
+#updates .row-fluid textarea#github,
+.row-fluid #updates textarea#wordpress,
+#updates .row-fluid textarea#wordpress,
+.row-fluid #updates textarea#so,
+#updates .row-fluid textarea#so,
 .row-fluid .uneditable-input[class*="span"],
 .row-fluid #contact nav.uneditable-input,
 #contact .row-fluid nav.uneditable-input,
-.row-fluid #updates > div.uneditable-input,
+.row-fluid #updates .uneditable-input#github,
+#updates .row-fluid .uneditable-input#github,
+.row-fluid #updates .uneditable-input#wordpress,
+#updates .row-fluid .uneditable-input#wordpress,
+.row-fluid #updates .uneditable-input#so,
+#updates .row-fluid .uneditable-input#so,
 .row-fluid .input-prepend [class*="span"],
 .row-fluid .input-prepend #contact nav,
 #contact .row-fluid .input-prepend nav,
-.row-fluid .input-prepend #updates > div,
+.row-fluid .input-prepend #updates #github,
+#updates .row-fluid .input-prepend #github,
+.row-fluid .input-prepend #updates #wordpress,
+#updates .row-fluid .input-prepend #wordpress,
+.row-fluid .input-prepend #updates #so,
+#updates .row-fluid .input-prepend #so,
 .row-fluid .input-append [class*="span"],
 .row-fluid .input-append #contact nav,
 #contact .row-fluid .input-append nav,
-.row-fluid .input-append #updates > div {
+.row-fluid .input-append #updates #github,
+#updates .row-fluid .input-append #github,
+.row-fluid .input-append #updates #wordpress,
+#updates .row-fluid .input-append #wordpress,
+.row-fluid .input-append #updates #so,
+#updates .row-fluid .input-append #so {
   display: inline-block; }
 
 input,
@@ -1040,7 +1130,7 @@ textarea,
 .uneditable-input {
   margin-left: 0; }
 
-.controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+.controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates #github + [class*="span"], #updates .controls-row #github + [class*="span"], .controls-row #updates #wordpress + [class*="span"], #updates .controls-row #wordpress + [class*="span"], .controls-row #updates #so + [class*="span"], #updates .controls-row #so + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #updates #contact #github + nav, #contact .controls-row #updates #github + nav, #updates .controls-row #contact #github + nav, #contact #updates .controls-row #github + nav, .controls-row #updates #contact #wordpress + nav, #contact .controls-row #updates #wordpress + nav, #updates .controls-row #contact #wordpress + nav, #contact #updates .controls-row #wordpress + nav, .controls-row #updates #contact #so + nav, #contact .controls-row #updates #so + nav, #updates .controls-row #contact #so + nav, #contact #updates .controls-row #so + nav, .controls-row #updates [class*="span"] + #github, #updates .controls-row [class*="span"] + #github, .controls-row #contact #updates nav + #github, #updates .controls-row #contact nav + #github, #contact .controls-row #updates nav + #github, #updates #contact .controls-row nav + #github, .controls-row #updates #github + #github, #updates .controls-row #github + #github, .controls-row #updates #wordpress + #github, #updates .controls-row #wordpress + #github, .controls-row #updates #so + #github, #updates .controls-row #so + #github, .controls-row #updates [class*="span"] + #wordpress, #updates .controls-row [class*="span"] + #wordpress, .controls-row #contact #updates nav + #wordpress, #updates .controls-row #contact nav + #wordpress, #contact .controls-row #updates nav + #wordpress, #updates #contact .controls-row nav + #wordpress, .controls-row #updates #github + #wordpress, #updates .controls-row #github + #wordpress, .controls-row #updates #wordpress + #wordpress, #updates .controls-row #wordpress + #wordpress, .controls-row #updates #so + #wordpress, #updates .controls-row #so + #wordpress, .controls-row #updates [class*="span"] + #so, #updates .controls-row [class*="span"] + #so, .controls-row #contact #updates nav + #so, #updates .controls-row #contact nav + #so, #contact .controls-row #updates nav + #so, #updates #contact .controls-row nav + #so, .controls-row #updates #github + #so, #updates .controls-row #github + #so, .controls-row #updates #wordpress + #so, #updates .controls-row #wordpress + #so, .controls-row #updates #so + #so, #updates .controls-row #so + #so {
   margin-left: 20px; }
 
 input.span1,
@@ -1058,10 +1148,15 @@ textarea.span3,
 .uneditable-input.span3 {
   width: 206px; }
 
-input.span4,
+input.span4, #updates input#github, #updates input#wordpress, #updates input#so,
 textarea.span4,
+#updates textarea#github,
+#updates textarea#wordpress,
+#updates textarea#so,
 .uneditable-input.span4,
-#updates > div.uneditable-input {
+#updates .uneditable-input#github,
+#updates .uneditable-input#wordpress,
+#updates .uneditable-input#so {
   width: 286px; }
 
 input.span5,
@@ -1114,18 +1209,28 @@ textarea.span12,
   .controls-row:after {
     clear: both; }
 
-.controls-row [class*="span"], .controls-row #contact nav, #contact .controls-row nav, .controls-row #updates > div,
+.controls-row [class*="span"], .controls-row #contact nav, #contact .controls-row nav, .controls-row #updates #github, #updates .controls-row #github, .controls-row #updates #wordpress, #updates .controls-row #wordpress, .controls-row #updates #so, #updates .controls-row #so,
 .row-fluid .controls-row [class*="span"],
 .row-fluid .controls-row #contact nav,
 #contact .row-fluid .controls-row nav,
-.row-fluid .controls-row #updates > div {
+.row-fluid .controls-row #updates #github,
+#updates .row-fluid .controls-row #github,
+.row-fluid .controls-row #updates #wordpress,
+#updates .row-fluid .controls-row #wordpress,
+.row-fluid .controls-row #updates #so,
+#updates .row-fluid .controls-row #so {
   float: left; }
 
-.controls-row .checkbox[class*="span"], .controls-row #contact nav.checkbox, #contact .controls-row nav.checkbox, .controls-row #updates > div.checkbox,
+.controls-row .checkbox[class*="span"], .controls-row #contact nav.checkbox, #contact .controls-row nav.checkbox, .controls-row #updates .checkbox#github, #updates .controls-row .checkbox#github, .controls-row #updates .checkbox#wordpress, #updates .controls-row .checkbox#wordpress, .controls-row #updates .checkbox#so, #updates .controls-row .checkbox#so,
 .controls-row .radio[class*="span"],
 .controls-row #contact nav.radio,
 #contact .controls-row nav.radio,
-.controls-row #updates > div.radio {
+.controls-row #updates .radio#github,
+#updates .controls-row .radio#github,
+.controls-row #updates .radio#wordpress,
+#updates .controls-row .radio#wordpress,
+.controls-row #updates .radio#so,
+#updates .controls-row .radio#so {
   padding-top: 5px; }
 
 input[disabled],
@@ -1686,10 +1791,28 @@ table {
 .table-hover tbody tr:hover > th {
   background-color: whitesmoke; }
 
-table td[class*="span"],
+table td[class*="span"], table #updates td#github, #updates table td#github, table #updates td#wordpress, #updates table td#wordpress, table #updates td#so, #updates table td#so,
 table th[class*="span"],
+table #updates th#github,
+#updates table th#github,
+table #updates th#wordpress,
+#updates table th#wordpress,
+table #updates th#so,
+#updates table th#so,
 .row-fluid table td[class*="span"],
-.row-fluid table th[class*="span"] {
+.row-fluid table #updates td#github,
+#updates .row-fluid table td#github,
+.row-fluid table #updates td#wordpress,
+#updates .row-fluid table td#wordpress,
+.row-fluid table #updates td#so,
+#updates .row-fluid table td#so,
+.row-fluid table th[class*="span"],
+.row-fluid table #updates th#github,
+#updates .row-fluid table th#github,
+.row-fluid table #updates th#wordpress,
+#updates .row-fluid table th#wordpress,
+.row-fluid table #updates th#so,
+#updates .row-fluid table th#so {
   display: table-cell;
   float: none;
   margin-left: 0; }
@@ -1709,8 +1832,14 @@ table th[class*="span"],
   float: none;
   width: 204px;
   margin-left: 0; }
-.table td.span4,
-.table th.span4 {
+.table td.span4, .table #updates td#github, #updates .table td#github, .table #updates td#wordpress, #updates .table td#wordpress, .table #updates td#so, #updates .table td#so,
+.table th.span4,
+.table #updates th#github,
+#updates .table th#github,
+.table #updates th#wordpress,
+#updates .table th#wordpress,
+.table #updates th#so,
+#updates .table th#so {
   float: none;
   width: 284px;
   margin-left: 0; }
@@ -5053,7 +5182,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row:after, #contact:after, #updates:after {
       clear: both; }
 
-  [class*="span"], #contact nav, #updates > div {
+  [class*="span"], #contact nav, #updates #github, #updates #wordpress, #updates #so {
     float: left;
     min-height: 1px;
     margin-left: 30px; }
@@ -5073,7 +5202,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .span3 {
     width: 270px; }
 
-  .span4, #updates > div {
+  .span4, #updates #github, #updates #wordpress, #updates #so {
     width: 370px; }
 
   .span5 {
@@ -5145,7 +5274,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       line-height: 0; }
     .row-fluid:after {
       clear: both; }
-    .row-fluid [class*="span"], .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates > div {
+    .row-fluid [class*="span"], .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates #github, #updates .row-fluid #github, .row-fluid #updates #wordpress, #updates .row-fluid #wordpress, .row-fluid #updates #so, #updates .row-fluid #so {
       display: block;
       width: 100%;
       min-height: 30px;
@@ -5155,9 +5284,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       float: left;
       margin-left: 2.5641%;
       *margin-left: 2.51091%; }
-    .row-fluid [class*="span"]:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates > div:first-child {
+    .row-fluid [class*="span"]:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates #github:first-child, #updates .row-fluid #github:first-child, .row-fluid #updates #wordpress:first-child, #updates .row-fluid #wordpress:first-child, .row-fluid #updates #so:first-child, #updates .row-fluid #so:first-child {
       margin-left: 0; }
-    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #contact #updates > div + nav, #contact .row-fluid .controls-row #updates > div + nav, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #contact #updates > nav + div, #contact .row-fluid .controls-row #updates > nav + div, .row-fluid .controls-row #updates > div + div {
+    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates #github + [class*="span"], #updates .row-fluid .controls-row #github + [class*="span"], .row-fluid .controls-row #updates #wordpress + [class*="span"], #updates .row-fluid .controls-row #wordpress + [class*="span"], .row-fluid .controls-row #updates #so + [class*="span"], #updates .row-fluid .controls-row #so + [class*="span"], .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #updates #contact #github + nav, #contact .row-fluid .controls-row #updates #github + nav, #updates .row-fluid .controls-row #contact #github + nav, #contact #updates .row-fluid .controls-row #github + nav, .row-fluid .controls-row #updates #contact #wordpress + nav, #contact .row-fluid .controls-row #updates #wordpress + nav, #updates .row-fluid .controls-row #contact #wordpress + nav, #contact #updates .row-fluid .controls-row #wordpress + nav, .row-fluid .controls-row #updates #contact #so + nav, #contact .row-fluid .controls-row #updates #so + nav, #updates .row-fluid .controls-row #contact #so + nav, #contact #updates .row-fluid .controls-row #so + nav, .row-fluid .controls-row #updates [class*="span"] + #github, #updates .row-fluid .controls-row [class*="span"] + #github, .row-fluid .controls-row #contact #updates nav + #github, #updates .row-fluid .controls-row #contact nav + #github, #contact .row-fluid .controls-row #updates nav + #github, #updates #contact .row-fluid .controls-row nav + #github, .row-fluid .controls-row #updates #github + #github, #updates .row-fluid .controls-row #github + #github, .row-fluid .controls-row #updates #wordpress + #github, #updates .row-fluid .controls-row #wordpress + #github, .row-fluid .controls-row #updates #so + #github, #updates .row-fluid .controls-row #so + #github, .row-fluid .controls-row #updates [class*="span"] + #wordpress, #updates .row-fluid .controls-row [class*="span"] + #wordpress, .row-fluid .controls-row #contact #updates nav + #wordpress, #updates .row-fluid .controls-row #contact nav + #wordpress, #contact .row-fluid .controls-row #updates nav + #wordpress, #updates #contact .row-fluid .controls-row nav + #wordpress, .row-fluid .controls-row #updates #github + #wordpress, #updates .row-fluid .controls-row #github + #wordpress, .row-fluid .controls-row #updates #wordpress + #wordpress, #updates .row-fluid .controls-row #wordpress + #wordpress, .row-fluid .controls-row #updates #so + #wordpress, #updates .row-fluid .controls-row #so + #wordpress, .row-fluid .controls-row #updates [class*="span"] + #so, #updates .row-fluid .controls-row [class*="span"] + #so, .row-fluid .controls-row #contact #updates nav + #so, #updates .row-fluid .controls-row #contact nav + #so, #contact .row-fluid .controls-row #updates nav + #so, #updates #contact .row-fluid .controls-row nav + #so, .row-fluid .controls-row #updates #github + #so, #updates .row-fluid .controls-row #github + #so, .row-fluid .controls-row #updates #wordpress + #so, #updates .row-fluid .controls-row #wordpress + #so, .row-fluid .controls-row #updates #so + #so, #updates .row-fluid .controls-row #so + #so {
       margin-left: 2.5641%; }
     .row-fluid .span1 {
       width: 5.98291%;
@@ -5168,7 +5297,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row-fluid .span3 {
       width: 23.07692%;
       *width: 23.02373%; }
-    .row-fluid .span4, .row-fluid #updates > div {
+    .row-fluid .span4, .row-fluid #updates #github, #updates .row-fluid #github, .row-fluid #updates #wordpress, #updates .row-fluid #wordpress, .row-fluid #updates #so, #updates .row-fluid #so {
       width: 31.62393%;
       *width: 31.57074%; }
     .row-fluid .span5 {
@@ -5273,7 +5402,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .uneditable-input {
     margin-left: 0; }
 
-  .controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+  .controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates #github + [class*="span"], #updates .controls-row #github + [class*="span"], .controls-row #updates #wordpress + [class*="span"], #updates .controls-row #wordpress + [class*="span"], .controls-row #updates #so + [class*="span"], #updates .controls-row #so + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #updates #contact #github + nav, #contact .controls-row #updates #github + nav, #updates .controls-row #contact #github + nav, #contact #updates .controls-row #github + nav, .controls-row #updates #contact #wordpress + nav, #contact .controls-row #updates #wordpress + nav, #updates .controls-row #contact #wordpress + nav, #contact #updates .controls-row #wordpress + nav, .controls-row #updates #contact #so + nav, #contact .controls-row #updates #so + nav, #updates .controls-row #contact #so + nav, #contact #updates .controls-row #so + nav, .controls-row #updates [class*="span"] + #github, #updates .controls-row [class*="span"] + #github, .controls-row #contact #updates nav + #github, #updates .controls-row #contact nav + #github, #contact .controls-row #updates nav + #github, #updates #contact .controls-row nav + #github, .controls-row #updates #github + #github, #updates .controls-row #github + #github, .controls-row #updates #wordpress + #github, #updates .controls-row #wordpress + #github, .controls-row #updates #so + #github, #updates .controls-row #so + #github, .controls-row #updates [class*="span"] + #wordpress, #updates .controls-row [class*="span"] + #wordpress, .controls-row #contact #updates nav + #wordpress, #updates .controls-row #contact nav + #wordpress, #contact .controls-row #updates nav + #wordpress, #updates #contact .controls-row nav + #wordpress, .controls-row #updates #github + #wordpress, #updates .controls-row #github + #wordpress, .controls-row #updates #wordpress + #wordpress, #updates .controls-row #wordpress + #wordpress, .controls-row #updates #so + #wordpress, #updates .controls-row #so + #wordpress, .controls-row #updates [class*="span"] + #so, #updates .controls-row [class*="span"] + #so, .controls-row #contact #updates nav + #so, #updates .controls-row #contact nav + #so, #contact .controls-row #updates nav + #so, #updates #contact .controls-row nav + #so, .controls-row #updates #github + #so, #updates .controls-row #github + #so, .controls-row #updates #wordpress + #so, #updates .controls-row #wordpress + #so, .controls-row #updates #so + #so, #updates .controls-row #so + #so {
     margin-left: 30px; }
 
   input.span1,
@@ -5291,10 +5420,15 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .uneditable-input.span3 {
     width: 256px; }
 
-  input.span4,
+  input.span4, #updates input#github, #updates input#wordpress, #updates input#so,
   textarea.span4,
+  #updates textarea#github,
+  #updates textarea#wordpress,
+  #updates textarea#so,
   .uneditable-input.span4,
-  #updates > div.uneditable-input {
+  #updates .uneditable-input#github,
+  #updates .uneditable-input#wordpress,
+  #updates .uneditable-input#so {
     width: 356px; }
 
   input.span5,
@@ -5357,7 +5491,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row:after, #contact:after, #updates:after {
       clear: both; }
 
-  [class*="span"], #contact nav, #updates > div {
+  [class*="span"], #contact nav, #updates #github, #updates #wordpress, #updates #so {
     float: left;
     min-height: 1px;
     margin-left: 20px; }
@@ -5377,7 +5511,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .span3 {
     width: 166px; }
 
-  .span4, #updates > div {
+  .span4, #updates #github, #updates #wordpress, #updates #so {
     width: 228px; }
 
   .span5 {
@@ -5449,7 +5583,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       line-height: 0; }
     .row-fluid:after {
       clear: both; }
-    .row-fluid [class*="span"], .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates > div {
+    .row-fluid [class*="span"], .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates #github, #updates .row-fluid #github, .row-fluid #updates #wordpress, #updates .row-fluid #wordpress, .row-fluid #updates #so, #updates .row-fluid #so {
       display: block;
       width: 100%;
       min-height: 30px;
@@ -5459,9 +5593,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       float: left;
       margin-left: 2.76243%;
       *margin-left: 2.70924%; }
-    .row-fluid [class*="span"]:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates > div:first-child {
+    .row-fluid [class*="span"]:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates #github:first-child, #updates .row-fluid #github:first-child, .row-fluid #updates #wordpress:first-child, #updates .row-fluid #wordpress:first-child, .row-fluid #updates #so:first-child, #updates .row-fluid #so:first-child {
       margin-left: 0; }
-    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #contact #updates > div + nav, #contact .row-fluid .controls-row #updates > div + nav, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #contact #updates > nav + div, #contact .row-fluid .controls-row #updates > nav + div, .row-fluid .controls-row #updates > div + div {
+    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates #github + [class*="span"], #updates .row-fluid .controls-row #github + [class*="span"], .row-fluid .controls-row #updates #wordpress + [class*="span"], #updates .row-fluid .controls-row #wordpress + [class*="span"], .row-fluid .controls-row #updates #so + [class*="span"], #updates .row-fluid .controls-row #so + [class*="span"], .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #updates #contact #github + nav, #contact .row-fluid .controls-row #updates #github + nav, #updates .row-fluid .controls-row #contact #github + nav, #contact #updates .row-fluid .controls-row #github + nav, .row-fluid .controls-row #updates #contact #wordpress + nav, #contact .row-fluid .controls-row #updates #wordpress + nav, #updates .row-fluid .controls-row #contact #wordpress + nav, #contact #updates .row-fluid .controls-row #wordpress + nav, .row-fluid .controls-row #updates #contact #so + nav, #contact .row-fluid .controls-row #updates #so + nav, #updates .row-fluid .controls-row #contact #so + nav, #contact #updates .row-fluid .controls-row #so + nav, .row-fluid .controls-row #updates [class*="span"] + #github, #updates .row-fluid .controls-row [class*="span"] + #github, .row-fluid .controls-row #contact #updates nav + #github, #updates .row-fluid .controls-row #contact nav + #github, #contact .row-fluid .controls-row #updates nav + #github, #updates #contact .row-fluid .controls-row nav + #github, .row-fluid .controls-row #updates #github + #github, #updates .row-fluid .controls-row #github + #github, .row-fluid .controls-row #updates #wordpress + #github, #updates .row-fluid .controls-row #wordpress + #github, .row-fluid .controls-row #updates #so + #github, #updates .row-fluid .controls-row #so + #github, .row-fluid .controls-row #updates [class*="span"] + #wordpress, #updates .row-fluid .controls-row [class*="span"] + #wordpress, .row-fluid .controls-row #contact #updates nav + #wordpress, #updates .row-fluid .controls-row #contact nav + #wordpress, #contact .row-fluid .controls-row #updates nav + #wordpress, #updates #contact .row-fluid .controls-row nav + #wordpress, .row-fluid .controls-row #updates #github + #wordpress, #updates .row-fluid .controls-row #github + #wordpress, .row-fluid .controls-row #updates #wordpress + #wordpress, #updates .row-fluid .controls-row #wordpress + #wordpress, .row-fluid .controls-row #updates #so + #wordpress, #updates .row-fluid .controls-row #so + #wordpress, .row-fluid .controls-row #updates [class*="span"] + #so, #updates .row-fluid .controls-row [class*="span"] + #so, .row-fluid .controls-row #contact #updates nav + #so, #updates .row-fluid .controls-row #contact nav + #so, #contact .row-fluid .controls-row #updates nav + #so, #updates #contact .row-fluid .controls-row nav + #so, .row-fluid .controls-row #updates #github + #so, #updates .row-fluid .controls-row #github + #so, .row-fluid .controls-row #updates #wordpress + #so, #updates .row-fluid .controls-row #wordpress + #so, .row-fluid .controls-row #updates #so + #so, #updates .row-fluid .controls-row #so + #so {
       margin-left: 2.76243%; }
     .row-fluid .span1 {
       width: 5.8011%;
@@ -5472,7 +5606,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row-fluid .span3 {
       width: 22.92818%;
       *width: 22.87499%; }
-    .row-fluid .span4, .row-fluid #updates > div {
+    .row-fluid .span4, .row-fluid #updates #github, #updates .row-fluid #github, .row-fluid #updates #wordpress, #updates .row-fluid #wordpress, .row-fluid #updates #so, #updates .row-fluid #so {
       width: 31.49171%;
       *width: 31.43852%; }
     .row-fluid .span5 {
@@ -5577,7 +5711,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .uneditable-input {
     margin-left: 0; }
 
-  .controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+  .controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates #github + [class*="span"], #updates .controls-row #github + [class*="span"], .controls-row #updates #wordpress + [class*="span"], #updates .controls-row #wordpress + [class*="span"], .controls-row #updates #so + [class*="span"], #updates .controls-row #so + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #updates #contact #github + nav, #contact .controls-row #updates #github + nav, #updates .controls-row #contact #github + nav, #contact #updates .controls-row #github + nav, .controls-row #updates #contact #wordpress + nav, #contact .controls-row #updates #wordpress + nav, #updates .controls-row #contact #wordpress + nav, #contact #updates .controls-row #wordpress + nav, .controls-row #updates #contact #so + nav, #contact .controls-row #updates #so + nav, #updates .controls-row #contact #so + nav, #contact #updates .controls-row #so + nav, .controls-row #updates [class*="span"] + #github, #updates .controls-row [class*="span"] + #github, .controls-row #contact #updates nav + #github, #updates .controls-row #contact nav + #github, #contact .controls-row #updates nav + #github, #updates #contact .controls-row nav + #github, .controls-row #updates #github + #github, #updates .controls-row #github + #github, .controls-row #updates #wordpress + #github, #updates .controls-row #wordpress + #github, .controls-row #updates #so + #github, #updates .controls-row #so + #github, .controls-row #updates [class*="span"] + #wordpress, #updates .controls-row [class*="span"] + #wordpress, .controls-row #contact #updates nav + #wordpress, #updates .controls-row #contact nav + #wordpress, #contact .controls-row #updates nav + #wordpress, #updates #contact .controls-row nav + #wordpress, .controls-row #updates #github + #wordpress, #updates .controls-row #github + #wordpress, .controls-row #updates #wordpress + #wordpress, #updates .controls-row #wordpress + #wordpress, .controls-row #updates #so + #wordpress, #updates .controls-row #so + #wordpress, .controls-row #updates [class*="span"] + #so, #updates .controls-row [class*="span"] + #so, .controls-row #contact #updates nav + #so, #updates .controls-row #contact nav + #so, #contact .controls-row #updates nav + #so, #updates #contact .controls-row nav + #so, .controls-row #updates #github + #so, #updates .controls-row #github + #so, .controls-row #updates #wordpress + #so, #updates .controls-row #wordpress + #so, .controls-row #updates #so + #so, #updates .controls-row #so + #so {
     margin-left: 20px; }
 
   input.span1,
@@ -5595,10 +5729,15 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .uneditable-input.span3 {
     width: 152px; }
 
-  input.span4,
+  input.span4, #updates input#github, #updates input#wordpress, #updates input#so,
   textarea.span4,
+  #updates textarea#github,
+  #updates textarea#wordpress,
+  #updates textarea#so,
   .uneditable-input.span4,
-  #updates > div.uneditable-input {
+  #updates .uneditable-input#github,
+  #updates .uneditable-input#wordpress,
+  #updates .uneditable-input#so {
     width: 214px; }
 
   input.span5,
@@ -5677,14 +5816,21 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     float: none;
     margin-left: 0; }
 
-  [class*="span"], #contact nav, #updates > div,
+  [class*="span"], #contact nav, #updates #github, #updates #wordpress, #updates #so,
   .uneditable-input[class*="span"],
   #contact nav.uneditable-input,
-  #updates > div.uneditable-input,
+  #updates .uneditable-input#github,
+  #updates .uneditable-input#wordpress,
+  #updates .uneditable-input#so,
   .row-fluid [class*="span"],
   .row-fluid #contact nav,
   #contact .row-fluid nav,
-  .row-fluid #updates > div {
+  .row-fluid #updates #github,
+  #updates .row-fluid #github,
+  .row-fluid #updates #wordpress,
+  #updates .row-fluid #wordpress,
+  .row-fluid #updates #so,
+  #updates .row-fluid #so {
     float: none;
     display: block;
     width: 100%;
@@ -5709,8 +5855,17 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .input-xlarge,
   .input-xxlarge,
   input[class*="span"],
+  #updates input#github,
+  #updates input#wordpress,
+  #updates input#so,
   select[class*="span"],
+  #updates select#github,
+  #updates select#wordpress,
+  #updates select#so,
   textarea[class*="span"],
+  #updates textarea#github,
+  #updates textarea#wordpress,
+  #updates textarea#so,
   .uneditable-input {
     display: block;
     width: 100%;
@@ -5722,11 +5877,23 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .input-prepend input,
   .input-append input,
   .input-prepend input[class*="span"],
-  .input-append input[class*="span"] {
+  .input-prepend #updates input#github,
+  #updates .input-prepend input#github,
+  .input-prepend #updates input#wordpress,
+  #updates .input-prepend input#wordpress,
+  .input-prepend #updates input#so,
+  #updates .input-prepend input#so,
+  .input-append input[class*="span"],
+  .input-append #updates input#github,
+  #updates .input-append input#github,
+  .input-append #updates input#wordpress,
+  #updates .input-append input#wordpress,
+  .input-append #updates input#so,
+  #updates .input-append input#so {
     display: inline-block;
     width: auto; }
 
-  .controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+  .controls-row [class*="span"] + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates #github + [class*="span"], #updates .controls-row #github + [class*="span"], .controls-row #updates #wordpress + [class*="span"], #updates .controls-row #wordpress + [class*="span"], .controls-row #updates #so + [class*="span"], #updates .controls-row #so + [class*="span"], .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #updates #contact #github + nav, #contact .controls-row #updates #github + nav, #updates .controls-row #contact #github + nav, #contact #updates .controls-row #github + nav, .controls-row #updates #contact #wordpress + nav, #contact .controls-row #updates #wordpress + nav, #updates .controls-row #contact #wordpress + nav, #contact #updates .controls-row #wordpress + nav, .controls-row #updates #contact #so + nav, #contact .controls-row #updates #so + nav, #updates .controls-row #contact #so + nav, #contact #updates .controls-row #so + nav, .controls-row #updates [class*="span"] + #github, #updates .controls-row [class*="span"] + #github, .controls-row #contact #updates nav + #github, #updates .controls-row #contact nav + #github, #contact .controls-row #updates nav + #github, #updates #contact .controls-row nav + #github, .controls-row #updates #github + #github, #updates .controls-row #github + #github, .controls-row #updates #wordpress + #github, #updates .controls-row #wordpress + #github, .controls-row #updates #so + #github, #updates .controls-row #so + #github, .controls-row #updates [class*="span"] + #wordpress, #updates .controls-row [class*="span"] + #wordpress, .controls-row #contact #updates nav + #wordpress, #updates .controls-row #contact nav + #wordpress, #contact .controls-row #updates nav + #wordpress, #updates #contact .controls-row nav + #wordpress, .controls-row #updates #github + #wordpress, #updates .controls-row #github + #wordpress, .controls-row #updates #wordpress + #wordpress, #updates .controls-row #wordpress + #wordpress, .controls-row #updates #so + #wordpress, #updates .controls-row #so + #wordpress, .controls-row #updates [class*="span"] + #so, #updates .controls-row [class*="span"] + #so, .controls-row #contact #updates nav + #so, #updates .controls-row #contact nav + #so, #contact .controls-row #updates nav + #so, #updates #contact .controls-row nav + #so, .controls-row #updates #github + #so, #updates .controls-row #github + #so, .controls-row #updates #wordpress + #so, #updates .controls-row #wordpress + #so, .controls-row #updates #so + #so, #updates .controls-row #so + #so {
     margin-left: 0; }
 
   .modal {
@@ -5972,16 +6139,16 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 #updates {
   background: white; }
-  #updates > div {
+  #updates #github, #updates #wordpress, #updates #so {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #eeeeee;
     overflow: hidden;
     min-height: 135px; }
-    #updates > div > * {
+    #updates #github > *, #updates #wordpress > *, #updates #so > * {
       margin: 10px; }
-    #updates > div h4 {
+    #updates #github h4, #updates #wordpress h4, #updates #so h4 {
       text-shadow: 0px 1px 1px #141414;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.6);

@@ -86,7 +86,7 @@ body {
 	@extend .row;
 	background: white;
 
-	> div {
+	#github, #wordpress, #so {
 		@extend .span4;
 		@extend [class*="span"];
 		@include box-sizing(border-box);
