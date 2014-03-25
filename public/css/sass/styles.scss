@@ -74,24 +74,6 @@ h2, h3, h4 {
 
 #contact {
 	@extend .row;
-
-	nav {
-		@extend .span12;
-		@extend [class*="span"];
-		text-align: center;
-
-		ul {
-			@extend .nav;
-			@extend .nav-pills;
-			display: inline-block;
-
-			li {
-				display:inline;
-
-				a { float: left; }
-			}
-		}
-	}
 }
 
 #about {
@@ -104,10 +86,15 @@ h2, h3, h4 {
 	padding: 0 20px;
 	background-color: $grayDarker;
 	max-width: 798px;
-	margin: 0 auto 20px;
+	margin: 20px auto;
 
-	> * {
+	h3, p {
 		margin-bottom: 20px;
+	}
+
+	h3 {
+		text-shadow: 0px 1px 1px rgba(20, 20, 20, 1);
+		color: $gray;
 	}
 
 	p {
@@ -115,9 +102,13 @@ h2, h3, h4 {
 		font-size: 16px;
 	}
 
-	h3 {
-		text-shadow: 0px 1px 1px rgba(20, 20, 20, 1);
-		color: $gray;
+	nav {
+		text-align: center;
+		ul {
+			@extend .nav;
+			@extend .nav-pills;
+			display: inline-block;
+		}
 	}
 }
 

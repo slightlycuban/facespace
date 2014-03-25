@@ -217,7 +217,7 @@ a:focus {
   .row:after, #contact:after, #updates:after {
     clear: both; }
 
-[class*="span"], #header #name, #header #qrcode, #header #myself, #contact nav, #updates > div {
+[class*="span"], #header #name, #header #qrcode, #header #myself, #updates > div {
   float: left;
   min-height: 1px;
   margin-left: 20px; }
@@ -264,7 +264,7 @@ a:focus {
 .span11 {
   width: 860px; }
 
-.span12, #contact nav {
+.span12 {
   width: 940px; }
 
 .offset1 {
@@ -312,7 +312,7 @@ a:focus {
     line-height: 0; }
   .row-fluid:after {
     clear: both; }
-  .row-fluid [class*="span"], .row-fluid #header #name, #header .row-fluid #name, .row-fluid #header #qrcode, #header .row-fluid #qrcode, .row-fluid #header #myself, #header .row-fluid #myself, .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates > div {
+  .row-fluid [class*="span"], .row-fluid #header #name, #header .row-fluid #name, .row-fluid #header #qrcode, #header .row-fluid #qrcode, .row-fluid #header #myself, #header .row-fluid #myself, .row-fluid #updates > div {
     display: block;
     width: 100%;
     min-height: 30px;
@@ -322,9 +322,9 @@ a:focus {
     float: left;
     margin-left: 2.12766%;
     *margin-left: 2.07447%; }
-  .row-fluid [class*="span"]:first-child, .row-fluid #header #name:first-child, #header .row-fluid #name:first-child, .row-fluid #header #qrcode:first-child, #header .row-fluid #qrcode:first-child, .row-fluid #header #myself:first-child, #header .row-fluid #myself:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates > div:first-child {
+  .row-fluid [class*="span"]:first-child, .row-fluid #header #name:first-child, #header .row-fluid #name:first-child, .row-fluid #header #qrcode:first-child, #header .row-fluid #qrcode:first-child, .row-fluid #header #myself:first-child, #header .row-fluid #myself:first-child, .row-fluid #updates > div:first-child {
     margin-left: 0; }
-  .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #header #name + [class*="span"], #header .row-fluid .controls-row #name + [class*="span"], .row-fluid .controls-row #header #qrcode + [class*="span"], #header .row-fluid .controls-row #qrcode + [class*="span"], .row-fluid .controls-row #header #myself + [class*="span"], #header .row-fluid .controls-row #myself + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #header [class*="span"] + #name, #header .row-fluid .controls-row [class*="span"] + #name, .row-fluid .controls-row #header #name + #name, #header .row-fluid .controls-row #name + #name, .row-fluid .controls-row #header #qrcode + #name, #header .row-fluid .controls-row #qrcode + #name, .row-fluid .controls-row #header #myself + #name, #header .row-fluid .controls-row #myself + #name, .row-fluid .controls-row #contact #header nav + #name, #header .row-fluid .controls-row #contact nav + #name, #contact .row-fluid .controls-row #header nav + #name, #header #contact .row-fluid .controls-row nav + #name, .row-fluid .controls-row #header #updates > div + #name, #header .row-fluid .controls-row #updates > div + #name, .row-fluid .controls-row #header [class*="span"] + #qrcode, #header .row-fluid .controls-row [class*="span"] + #qrcode, .row-fluid .controls-row #header #name + #qrcode, #header .row-fluid .controls-row #name + #qrcode, .row-fluid .controls-row #header #qrcode + #qrcode, #header .row-fluid .controls-row #qrcode + #qrcode, .row-fluid .controls-row #header #myself + #qrcode, #header .row-fluid .controls-row #myself + #qrcode, .row-fluid .controls-row #contact #header nav + #qrcode, #header .row-fluid .controls-row #contact nav + #qrcode, #contact .row-fluid .controls-row #header nav + #qrcode, #header #contact .row-fluid .controls-row nav + #qrcode, .row-fluid .controls-row #header #updates > div + #qrcode, #header .row-fluid .controls-row #updates > div + #qrcode, .row-fluid .controls-row #header [class*="span"] + #myself, #header .row-fluid .controls-row [class*="span"] + #myself, .row-fluid .controls-row #header #name + #myself, #header .row-fluid .controls-row #name + #myself, .row-fluid .controls-row #header #qrcode + #myself, #header .row-fluid .controls-row #qrcode + #myself, .row-fluid .controls-row #header #myself + #myself, #header .row-fluid .controls-row #myself + #myself, .row-fluid .controls-row #contact #header nav + #myself, #header .row-fluid .controls-row #contact nav + #myself, #contact .row-fluid .controls-row #header nav + #myself, #header #contact .row-fluid .controls-row nav + #myself, .row-fluid .controls-row #header #updates > div + #myself, #header .row-fluid .controls-row #updates > div + #myself, .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #header #contact #name + nav, #contact .row-fluid .controls-row #header #name + nav, #header .row-fluid .controls-row #contact #name + nav, #contact #header .row-fluid .controls-row #name + nav, .row-fluid .controls-row #header #contact #qrcode + nav, #contact .row-fluid .controls-row #header #qrcode + nav, #header .row-fluid .controls-row #contact #qrcode + nav, #contact #header .row-fluid .controls-row #qrcode + nav, .row-fluid .controls-row #header #contact #myself + nav, #contact .row-fluid .controls-row #header #myself + nav, #header .row-fluid .controls-row #contact #myself + nav, #contact #header .row-fluid .controls-row #myself + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #contact #updates > div + nav, #contact .row-fluid .controls-row #updates > div + nav, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #header #updates > #name + div, #header .row-fluid .controls-row #updates > #name + div, .row-fluid .controls-row #header #updates > #qrcode + div, #header .row-fluid .controls-row #updates > #qrcode + div, .row-fluid .controls-row #header #updates > #myself + div, #header .row-fluid .controls-row #updates > #myself + div, .row-fluid .controls-row #contact #updates > nav + div, #contact .row-fluid .controls-row #updates > nav + div, .row-fluid .controls-row #updates > div + div {
+  .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #header #name + [class*="span"], #header .row-fluid .controls-row #name + [class*="span"], .row-fluid .controls-row #header #qrcode + [class*="span"], #header .row-fluid .controls-row #qrcode + [class*="span"], .row-fluid .controls-row #header #myself + [class*="span"], #header .row-fluid .controls-row #myself + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #header [class*="span"] + #name, #header .row-fluid .controls-row [class*="span"] + #name, .row-fluid .controls-row #header #name + #name, #header .row-fluid .controls-row #name + #name, .row-fluid .controls-row #header #qrcode + #name, #header .row-fluid .controls-row #qrcode + #name, .row-fluid .controls-row #header #myself + #name, #header .row-fluid .controls-row #myself + #name, .row-fluid .controls-row #header #updates > div + #name, #header .row-fluid .controls-row #updates > div + #name, .row-fluid .controls-row #header [class*="span"] + #qrcode, #header .row-fluid .controls-row [class*="span"] + #qrcode, .row-fluid .controls-row #header #name + #qrcode, #header .row-fluid .controls-row #name + #qrcode, .row-fluid .controls-row #header #qrcode + #qrcode, #header .row-fluid .controls-row #qrcode + #qrcode, .row-fluid .controls-row #header #myself + #qrcode, #header .row-fluid .controls-row #myself + #qrcode, .row-fluid .controls-row #header #updates > div + #qrcode, #header .row-fluid .controls-row #updates > div + #qrcode, .row-fluid .controls-row #header [class*="span"] + #myself, #header .row-fluid .controls-row [class*="span"] + #myself, .row-fluid .controls-row #header #name + #myself, #header .row-fluid .controls-row #name + #myself, .row-fluid .controls-row #header #qrcode + #myself, #header .row-fluid .controls-row #qrcode + #myself, .row-fluid .controls-row #header #myself + #myself, #header .row-fluid .controls-row #myself + #myself, .row-fluid .controls-row #header #updates > div + #myself, #header .row-fluid .controls-row #updates > div + #myself, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #header #updates > #name + div, #header .row-fluid .controls-row #updates > #name + div, .row-fluid .controls-row #header #updates > #qrcode + div, #header .row-fluid .controls-row #updates > #qrcode + div, .row-fluid .controls-row #header #updates > #myself + div, #header .row-fluid .controls-row #updates > #myself + div, .row-fluid .controls-row #updates > div + div {
     margin-left: 2.12766%; }
   .row-fluid .span1 {
     width: 6.38298%;
@@ -359,7 +359,7 @@ a:focus {
   .row-fluid .span11 {
     width: 91.48936%;
     *width: 91.43617%; }
-  .row-fluid .span12, .row-fluid #contact nav, #contact .row-fluid nav {
+  .row-fluid .span12 {
     width: 100%;
     *width: 99.94681%; }
   .row-fluid .offset1 {
@@ -435,7 +435,7 @@ a:focus {
     margin-left: 102.12766%;
     *margin-left: 102.02128%; }
 
-[class*="span"].hide, #header .hide#name, #header .hide#qrcode, #header .hide#myself, #contact nav.hide, #updates > div.hide,
+[class*="span"].hide, #header .hide#name, #header .hide#qrcode, #header .hide#myself, #updates > div.hide,
 .row-fluid [class*="span"].hide,
 .row-fluid #header .hide#name,
 #header .row-fluid .hide#name,
@@ -443,12 +443,10 @@ a:focus {
 #header .row-fluid .hide#qrcode,
 .row-fluid #header .hide#myself,
 #header .row-fluid .hide#myself,
-.row-fluid #contact nav.hide,
-#contact .row-fluid nav.hide,
 .row-fluid #updates > div.hide {
   display: none; }
 
-[class*="span"].pull-right, #header .pull-right#name, #header .pull-right#qrcode, #header .pull-right#myself, #contact nav.pull-right, #updates > div.pull-right,
+[class*="span"].pull-right, #header .pull-right#name, #header .pull-right#qrcode, #header .pull-right#myself, #updates > div.pull-right,
 .row-fluid [class*="span"].pull-right,
 .row-fluid #header .pull-right#name,
 #header .row-fluid .pull-right#name,
@@ -456,8 +454,6 @@ a:focus {
 #header .row-fluid .pull-right#qrcode,
 .row-fluid #header .pull-right#myself,
 #header .row-fluid .pull-right#myself,
-.row-fluid #contact nav.pull-right,
-#contact .row-fluid nav.pull-right,
 .row-fluid #updates > div.pull-right {
   float: right; }
 
@@ -1020,7 +1016,6 @@ textarea[class*="span"],
 #header .uneditable-input#name,
 #header .uneditable-input#qrcode,
 #header .uneditable-input#myself,
-#contact nav.uneditable-input,
 #updates > div.uneditable-input,
 .row-fluid input[class*="span"],
 .row-fluid #header input#name,
@@ -1050,8 +1045,6 @@ textarea[class*="span"],
 #header .row-fluid .uneditable-input#qrcode,
 .row-fluid #header .uneditable-input#myself,
 #header .row-fluid .uneditable-input#myself,
-.row-fluid #contact nav.uneditable-input,
-#contact .row-fluid nav.uneditable-input,
 .row-fluid #updates > div.uneditable-input {
   float: none;
   margin-left: 0; }
@@ -1064,8 +1057,6 @@ textarea[class*="span"],
 #header .input-append .uneditable-input#qrcode,
 .input-append #header .uneditable-input#myself,
 #header .input-append .uneditable-input#myself,
-.input-append #contact nav.uneditable-input,
-#contact .input-append nav.uneditable-input,
 .input-append #updates > div.uneditable-input,
 .input-prepend input[class*="span"],
 .input-prepend #header input#name,
@@ -1081,8 +1072,6 @@ textarea[class*="span"],
 #header .input-prepend .uneditable-input#qrcode,
 .input-prepend #header .uneditable-input#myself,
 #header .input-prepend .uneditable-input#myself,
-.input-prepend #contact nav.uneditable-input,
-#contact .input-prepend nav.uneditable-input,
 .input-prepend #updates > div.uneditable-input,
 .row-fluid input[class*="span"],
 .row-fluid #header input#name,
@@ -1112,8 +1101,6 @@ textarea[class*="span"],
 #header .row-fluid .uneditable-input#qrcode,
 .row-fluid #header .uneditable-input#myself,
 #header .row-fluid .uneditable-input#myself,
-.row-fluid #contact nav.uneditable-input,
-#contact .row-fluid nav.uneditable-input,
 .row-fluid #updates > div.uneditable-input,
 .row-fluid .input-prepend [class*="span"],
 .row-fluid .input-prepend #header #name,
@@ -1122,8 +1109,6 @@ textarea[class*="span"],
 #header .row-fluid .input-prepend #qrcode,
 .row-fluid .input-prepend #header #myself,
 #header .row-fluid .input-prepend #myself,
-.row-fluid .input-prepend #contact nav,
-#contact .row-fluid .input-prepend nav,
 .row-fluid .input-prepend #updates > div,
 .row-fluid .input-append [class*="span"],
 .row-fluid .input-append #header #name,
@@ -1132,8 +1117,6 @@ textarea[class*="span"],
 #header .row-fluid .input-append #qrcode,
 .row-fluid .input-append #header #myself,
 #header .row-fluid .input-append #myself,
-.row-fluid .input-append #contact nav,
-#contact .row-fluid .input-append nav,
 .row-fluid .input-append #updates > div {
   display: inline-block; }
 
@@ -1142,7 +1125,7 @@ textarea,
 .uneditable-input {
   margin-left: 0; }
 
-.controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #contact #header nav + #name, #header .controls-row #contact nav + #name, #contact .controls-row #header nav + #name, #header #contact .controls-row nav + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #contact #header nav + #qrcode, #header .controls-row #contact nav + #qrcode, #contact .controls-row #header nav + #qrcode, #header #contact .controls-row nav + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #contact #header nav + #myself, #header .controls-row #contact nav + #myself, #contact .controls-row #header nav + #myself, #header #contact .controls-row nav + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #header #contact #name + nav, #contact .controls-row #header #name + nav, #header .controls-row #contact #name + nav, #contact #header .controls-row #name + nav, .controls-row #header #contact #qrcode + nav, #contact .controls-row #header #qrcode + nav, #header .controls-row #contact #qrcode + nav, #contact #header .controls-row #qrcode + nav, .controls-row #header #contact #myself + nav, #contact .controls-row #header #myself + nav, #header .controls-row #contact #myself + nav, #contact #header .controls-row #myself + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+.controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #updates > div + div {
   margin-left: 20px; }
 
 input.span1,
@@ -1209,8 +1192,7 @@ textarea.span11,
 
 input.span12,
 textarea.span12,
-.uneditable-input.span12,
-#contact nav.uneditable-input {
+.uneditable-input.span12 {
   width: 926px; }
 
 .controls-row {
@@ -1222,7 +1204,7 @@ textarea.span12,
   .controls-row:after {
     clear: both; }
 
-.controls-row [class*="span"], .controls-row #header #name, #header .controls-row #name, .controls-row #header #qrcode, #header .controls-row #qrcode, .controls-row #header #myself, #header .controls-row #myself, .controls-row #contact nav, #contact .controls-row nav, .controls-row #updates > div,
+.controls-row [class*="span"], .controls-row #header #name, #header .controls-row #name, .controls-row #header #qrcode, #header .controls-row #qrcode, .controls-row #header #myself, #header .controls-row #myself, .controls-row #updates > div,
 .row-fluid .controls-row [class*="span"],
 .row-fluid .controls-row #header #name,
 #header .row-fluid .controls-row #name,
@@ -1230,12 +1212,10 @@ textarea.span12,
 #header .row-fluid .controls-row #qrcode,
 .row-fluid .controls-row #header #myself,
 #header .row-fluid .controls-row #myself,
-.row-fluid .controls-row #contact nav,
-#contact .row-fluid .controls-row nav,
 .row-fluid .controls-row #updates > div {
   float: left; }
 
-.controls-row .checkbox[class*="span"], .controls-row #header .checkbox#name, #header .controls-row .checkbox#name, .controls-row #header .checkbox#qrcode, #header .controls-row .checkbox#qrcode, .controls-row #header .checkbox#myself, #header .controls-row .checkbox#myself, .controls-row #contact nav.checkbox, #contact .controls-row nav.checkbox, .controls-row #updates > div.checkbox,
+.controls-row .checkbox[class*="span"], .controls-row #header .checkbox#name, #header .controls-row .checkbox#name, .controls-row #header .checkbox#qrcode, #header .controls-row .checkbox#qrcode, .controls-row #header .checkbox#myself, #header .controls-row .checkbox#myself, .controls-row #updates > div.checkbox,
 .controls-row .radio[class*="span"],
 .controls-row #header .radio#name,
 #header .controls-row .radio#name,
@@ -1243,8 +1223,6 @@ textarea.span12,
 #header .controls-row .radio#qrcode,
 .controls-row #header .radio#myself,
 #header .controls-row .radio#myself,
-.controls-row #contact nav.radio,
-#contact .controls-row nav.radio,
 .controls-row #updates > div.radio {
   padding-top: 5px; }
 
@@ -1933,17 +1911,17 @@ table #header th#myself,
 /* White icons with optional class, or on hover/focus/active states of certain elements */
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
-#contact nav ul > .active > a > [class^="icon-"],
+#about nav ul > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
-#contact nav ul > .active > a > [class*=" icon-"],
+#about nav ul > .active > a > [class*=" icon-"],
 .nav-list > .active > a > [class^="icon-"],
 .nav-list > .active > a > [class*=" icon-"],
 .navbar-inverse .nav > .active > a > [class^="icon-"],
-.navbar-inverse #contact nav ul > .active > a > [class^="icon-"],
-#contact nav .navbar-inverse ul > .active > a > [class^="icon-"],
+.navbar-inverse #about nav ul > .active > a > [class^="icon-"],
+#about nav .navbar-inverse ul > .active > a > [class^="icon-"],
 .navbar-inverse .nav > .active > a > [class*=" icon-"],
-.navbar-inverse #contact nav ul > .active > a > [class*=" icon-"],
-#contact nav .navbar-inverse ul > .active > a > [class*=" icon-"],
+.navbar-inverse #about nav ul > .active > a > [class*=" icon-"],
+#about nav .navbar-inverse ul > .active > a > [class*=" icon-"],
 .dropdown-menu > li > a:hover > [class^="icon-"],
 .dropdown-menu > li > a:focus > [class^="icon-"],
 .dropdown-menu > li > a:hover > [class*=" icon-"],
@@ -3233,24 +3211,24 @@ input[type="submit"].btn {
 .alert-block p + p {
   margin-top: 5px; }
 
-.nav, #contact nav ul {
+.nav, #about nav ul {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none; }
 
-.nav > li > a, #contact nav ul > li > a {
+.nav > li > a, #about nav ul > li > a {
   display: block; }
 
-.nav > li > a:hover, #contact nav ul > li > a:hover,
+.nav > li > a:hover, #about nav ul > li > a:hover,
 .nav > li > a:focus,
-#contact nav ul > li > a:focus {
+#about nav ul > li > a:focus {
   text-decoration: none;
   background-color: #222222; }
 
-.nav > li > a > img, #contact nav ul > li > a > img {
+.nav > li > a > img, #about nav ul > li > a > img {
   max-width: none; }
 
-.nav > .pull-right, #contact nav ul > .pull-right {
+.nav > .pull-right, #about nav ul > .pull-right {
   float: right; }
 
 .nav-header {
@@ -3263,7 +3241,7 @@ input[type="submit"].btn {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase; }
 
-.nav li + .nav-header, #contact nav ul li + .nav-header {
+.nav li + .nav-header, #about nav ul li + .nav-header {
   margin-top: 9px; }
 
 .nav-list {
@@ -3302,29 +3280,29 @@ input[type="submit"].btn {
 
 .nav-tabs,
 .nav-pills,
-#contact nav ul {
+#about nav ul {
   *zoom: 1; }
   .nav-tabs:before, .nav-tabs:after,
   .nav-pills:before,
-  #contact nav ul:before,
+  #about nav ul:before,
   .nav-pills:after,
-  #contact nav ul:after {
+  #about nav ul:after {
     display: table;
     content: "";
     line-height: 0; }
   .nav-tabs:after,
   .nav-pills:after,
-  #contact nav ul:after {
+  #about nav ul:after {
     clear: both; }
 
 .nav-tabs > li,
 .nav-pills > li,
-#contact nav ul > li {
+#about nav ul > li {
   float: left; }
 
 .nav-tabs > li > a,
 .nav-pills > li > a,
-#contact nav ul > li > a {
+#about nav ul > li > a {
   padding-right: 12px;
   padding-left: 12px;
   margin-right: 2px;
@@ -3356,7 +3334,7 @@ input[type="submit"].btn {
   border-bottom-color: transparent;
   cursor: default; }
 
-.nav-pills > li > a, #contact nav ul > li > a {
+.nav-pills > li > a, #about nav ul > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
   margin-top: 2px;
@@ -3365,11 +3343,11 @@ input[type="submit"].btn {
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-.nav-pills > .active > a, #contact nav ul > .active > a,
+.nav-pills > .active > a, #about nav ul > .active > a,
 .nav-pills > .active > a:hover,
-#contact nav ul > .active > a:hover,
+#about nav ul > .active > a:hover,
 .nav-pills > .active > a:focus,
-#contact nav ul > .active > a:focus {
+#about nav ul > .active > a:focus {
   color: black;
   background-color: #005580; }
 
@@ -3409,10 +3387,10 @@ input[type="submit"].btn {
   border-color: #ddd;
   z-index: 2; }
 
-.nav-pills.nav-stacked > li > a, #contact nav ul.nav-stacked > li > a {
+.nav-pills.nav-stacked > li > a, #about nav ul.nav-stacked > li > a {
   margin-bottom: 3px; }
 
-.nav-pills.nav-stacked > li:last-child > a, #contact nav ul.nav-stacked > li:last-child > a {
+.nav-pills.nav-stacked > li:last-child > a, #about nav ul.nav-stacked > li:last-child > a {
   margin-bottom: 1px; }
 
 .nav-tabs .dropdown-menu {
@@ -3420,19 +3398,19 @@ input[type="submit"].btn {
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px; }
 
-.nav-pills .dropdown-menu, #contact nav ul .dropdown-menu {
+.nav-pills .dropdown-menu, #about nav ul .dropdown-menu {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px; }
 
-.nav .dropdown-toggle .caret, #contact nav ul .dropdown-toggle .caret {
+.nav .dropdown-toggle .caret, #about nav ul .dropdown-toggle .caret {
   border-top-color: #005580;
   border-bottom-color: #005580;
   margin-top: 6px; }
 
-.nav .dropdown-toggle:hover .caret, #contact nav ul .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:hover .caret, #about nav ul .dropdown-toggle:hover .caret,
 .nav .dropdown-toggle:focus .caret,
-#contact nav ul .dropdown-toggle:focus .caret {
+#about nav ul .dropdown-toggle:focus .caret {
   border-top-color: #0088cc;
   border-bottom-color: #0088cc; }
 
@@ -3440,7 +3418,7 @@ input[type="submit"].btn {
 .nav-tabs .dropdown-toggle .caret {
   margin-top: 8px; }
 
-.nav .active .dropdown-toggle .caret, #contact nav ul .active .dropdown-toggle .caret {
+.nav .active .dropdown-toggle .caret, #about nav ul .active .dropdown-toggle .caret {
   border-top-color: #fff;
   border-bottom-color: #fff; }
 
@@ -3448,29 +3426,29 @@ input[type="submit"].btn {
   border-top-color: #555555;
   border-bottom-color: #555555; }
 
-.nav > .dropdown.active > a:hover, #contact nav ul > .dropdown.active > a:hover,
+.nav > .dropdown.active > a:hover, #about nav ul > .dropdown.active > a:hover,
 .nav > .dropdown.active > a:focus,
-#contact nav ul > .dropdown.active > a:focus {
+#about nav ul > .dropdown.active > a:focus {
   cursor: pointer; }
 
 .nav-tabs .open .dropdown-toggle,
 .nav-pills .open .dropdown-toggle,
-#contact nav ul .open .dropdown-toggle,
+#about nav ul .open .dropdown-toggle,
 .nav > li.dropdown.open.active > a:hover,
-#contact nav ul > li.dropdown.open.active > a:hover,
+#about nav ul > li.dropdown.open.active > a:hover,
 .nav > li.dropdown.open.active > a:focus,
-#contact nav ul > li.dropdown.open.active > a:focus {
+#about nav ul > li.dropdown.open.active > a:focus {
   color: black;
   background-color: #333333;
   border-color: #333333; }
 
-.nav li.dropdown.open .caret, #contact nav ul li.dropdown.open .caret,
+.nav li.dropdown.open .caret, #about nav ul li.dropdown.open .caret,
 .nav li.dropdown.open.active .caret,
-#contact nav ul li.dropdown.open.active .caret,
+#about nav ul li.dropdown.open.active .caret,
 .nav li.dropdown.open a:hover .caret,
-#contact nav ul li.dropdown.open a:hover .caret,
+#about nav ul li.dropdown.open a:hover .caret,
 .nav li.dropdown.open a:focus .caret,
-#contact nav ul li.dropdown.open a:focus .caret {
+#about nav ul li.dropdown.open a:focus .caret {
   border-top-color: black;
   border-bottom-color: black;
   opacity: 1;
@@ -3577,12 +3555,12 @@ input[type="submit"].btn {
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: black; }
 
-.nav > .disabled > a, #contact nav ul > .disabled > a {
+.nav > .disabled > a, #about nav ul > .disabled > a {
   color: #333333; }
 
-.nav > .disabled > a:hover, #contact nav ul > .disabled > a:hover,
+.nav > .disabled > a:hover, #about nav ul > .disabled > a:hover,
 .nav > .disabled > a:focus,
-#contact nav ul > .disabled > a:focus {
+#about nav ul > .disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
   cursor: default; }
@@ -3767,45 +3745,45 @@ input[type="submit"].btn {
     -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1); }
 
-.navbar .nav, .navbar #contact nav ul, #contact nav .navbar ul {
+.navbar .nav, .navbar #about nav ul, #about nav .navbar ul {
   position: relative;
   left: 0;
   display: block;
   float: left;
   margin: 0 10px 0 0; }
 
-.navbar .nav.pull-right, .navbar #contact nav ul.pull-right, #contact nav .navbar ul.pull-right {
+.navbar .nav.pull-right, .navbar #about nav ul.pull-right, #about nav .navbar ul.pull-right {
   float: right;
   margin-right: 0; }
 
-.navbar .nav > li, .navbar #contact nav ul > li, #contact nav .navbar ul > li {
+.navbar .nav > li, .navbar #about nav ul > li, #about nav .navbar ul > li {
   float: left; }
 
-.navbar .nav > li > a, .navbar #contact nav ul > li > a, #contact nav .navbar ul > li > a {
+.navbar .nav > li > a, .navbar #about nav ul > li > a, #about nav .navbar ul > li > a {
   float: none;
   padding: 10px 15px 10px;
   color: #777777;
   text-decoration: none;
   text-shadow: 0 1px 0 white; }
 
-.navbar .nav .dropdown-toggle .caret, .navbar #contact nav ul .dropdown-toggle .caret, #contact nav .navbar ul .dropdown-toggle .caret {
+.navbar .nav .dropdown-toggle .caret, .navbar #about nav ul .dropdown-toggle .caret, #about nav .navbar ul .dropdown-toggle .caret {
   margin-top: 8px; }
 
-.navbar .nav > li > a:focus, .navbar #contact nav ul > li > a:focus, #contact nav .navbar ul > li > a:focus,
+.navbar .nav > li > a:focus, .navbar #about nav ul > li > a:focus, #about nav .navbar ul > li > a:focus,
 .navbar .nav > li > a:hover,
-.navbar #contact nav ul > li > a:hover,
-#contact nav .navbar ul > li > a:hover {
+.navbar #about nav ul > li > a:hover,
+#about nav .navbar ul > li > a:hover {
   background-color: transparent;
   color: #999999;
   text-decoration: none; }
 
-.navbar .nav > .active > a, .navbar #contact nav ul > .active > a, #contact nav .navbar ul > .active > a,
+.navbar .nav > .active > a, .navbar #about nav ul > .active > a, #about nav .navbar ul > .active > a,
 .navbar .nav > .active > a:hover,
-.navbar #contact nav ul > .active > a:hover,
-#contact nav .navbar ul > .active > a:hover,
+.navbar #about nav ul > .active > a:hover,
+#about nav .navbar ul > .active > a:hover,
 .navbar .nav > .active > a:focus,
-.navbar #contact nav ul > .active > a:focus,
-#contact nav .navbar ul > .active > a:focus {
+.navbar #about nav ul > .active > a:focus,
+#about nav .navbar ul > .active > a:focus {
   color: #555555;
   text-decoration: none;
   background-color: #e6e6e6;
@@ -3859,7 +3837,7 @@ input[type="submit"].btn {
 .btn-navbar .icon-bar + .icon-bar {
   margin-top: 3px; }
 
-.navbar .nav > li > .dropdown-menu:before, .navbar #contact nav ul > li > .dropdown-menu:before, #contact nav .navbar ul > li > .dropdown-menu:before {
+.navbar .nav > li > .dropdown-menu:before, .navbar #about nav ul > li > .dropdown-menu:before, #about nav .navbar ul > li > .dropdown-menu:before {
   content: '';
   display: inline-block;
   border-left: 7px solid transparent;
@@ -3869,7 +3847,7 @@ input[type="submit"].btn {
   position: absolute;
   top: -7px;
   left: 9px; }
-.navbar .nav > li > .dropdown-menu:after, .navbar #contact nav ul > li > .dropdown-menu:after, #contact nav .navbar ul > li > .dropdown-menu:after {
+.navbar .nav > li > .dropdown-menu:after, .navbar #about nav ul > li > .dropdown-menu:after, #about nav .navbar ul > li > .dropdown-menu:after {
   content: '';
   display: inline-block;
   border-left: 6px solid transparent;
@@ -3879,71 +3857,71 @@ input[type="submit"].btn {
   top: -6px;
   left: 10px; }
 
-.navbar-fixed-bottom .nav > li > .dropdown-menu:before, .navbar-fixed-bottom #contact nav ul > li > .dropdown-menu:before, #contact nav .navbar-fixed-bottom ul > li > .dropdown-menu:before {
+.navbar-fixed-bottom .nav > li > .dropdown-menu:before, .navbar-fixed-bottom #about nav ul > li > .dropdown-menu:before, #about nav .navbar-fixed-bottom ul > li > .dropdown-menu:before {
   border-top: 7px solid #ccc;
   border-top-color: rgba(0, 0, 0, 0.2);
   border-bottom: 0;
   bottom: -7px;
   top: auto; }
-.navbar-fixed-bottom .nav > li > .dropdown-menu:after, .navbar-fixed-bottom #contact nav ul > li > .dropdown-menu:after, #contact nav .navbar-fixed-bottom ul > li > .dropdown-menu:after {
+.navbar-fixed-bottom .nav > li > .dropdown-menu:after, .navbar-fixed-bottom #about nav ul > li > .dropdown-menu:after, #about nav .navbar-fixed-bottom ul > li > .dropdown-menu:after {
   border-top: 6px solid black;
   border-bottom: 0;
   bottom: -6px;
   top: auto; }
 
-.navbar .nav li.dropdown > a:hover .caret, .navbar #contact nav ul li.dropdown > a:hover .caret, #contact nav .navbar ul li.dropdown > a:hover .caret,
+.navbar .nav li.dropdown > a:hover .caret, .navbar #about nav ul li.dropdown > a:hover .caret, #about nav .navbar ul li.dropdown > a:hover .caret,
 .navbar .nav li.dropdown > a:focus .caret,
-.navbar #contact nav ul li.dropdown > a:focus .caret,
-#contact nav .navbar ul li.dropdown > a:focus .caret {
+.navbar #about nav ul li.dropdown > a:focus .caret,
+#about nav .navbar ul li.dropdown > a:focus .caret {
   border-top-color: #555555;
   border-bottom-color: #555555; }
 
-.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar #contact nav ul li.dropdown.open > .dropdown-toggle, #contact nav .navbar ul li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar #about nav ul li.dropdown.open > .dropdown-toggle, #about nav .navbar ul li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
-.navbar #contact nav ul li.dropdown.active > .dropdown-toggle,
-#contact nav .navbar ul li.dropdown.active > .dropdown-toggle,
+.navbar #about nav ul li.dropdown.active > .dropdown-toggle,
+#about nav .navbar ul li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle,
-.navbar #contact nav ul li.dropdown.open.active > .dropdown-toggle,
-#contact nav .navbar ul li.dropdown.open.active > .dropdown-toggle {
+.navbar #about nav ul li.dropdown.open.active > .dropdown-toggle,
+#about nav .navbar ul li.dropdown.open.active > .dropdown-toggle {
   background-color: #e6e6e6;
   color: #555555; }
 
-.navbar .nav li.dropdown > .dropdown-toggle .caret, .navbar #contact nav ul li.dropdown > .dropdown-toggle .caret, #contact nav .navbar ul li.dropdown > .dropdown-toggle .caret {
+.navbar .nav li.dropdown > .dropdown-toggle .caret, .navbar #about nav ul li.dropdown > .dropdown-toggle .caret, #about nav .navbar ul li.dropdown > .dropdown-toggle .caret {
   border-top-color: #777777;
   border-bottom-color: #777777; }
 
-.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar #contact nav ul li.dropdown.open > .dropdown-toggle .caret, #contact nav .navbar ul li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar #about nav ul li.dropdown.open > .dropdown-toggle .caret, #about nav .navbar ul li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
-.navbar #contact nav ul li.dropdown.active > .dropdown-toggle .caret,
-#contact nav .navbar ul li.dropdown.active > .dropdown-toggle .caret,
+.navbar #about nav ul li.dropdown.active > .dropdown-toggle .caret,
+#about nav .navbar ul li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret,
-.navbar #contact nav ul li.dropdown.open.active > .dropdown-toggle .caret,
-#contact nav .navbar ul li.dropdown.open.active > .dropdown-toggle .caret {
+.navbar #about nav ul li.dropdown.open.active > .dropdown-toggle .caret,
+#about nav .navbar ul li.dropdown.open.active > .dropdown-toggle .caret {
   border-top-color: #555555;
   border-bottom-color: #555555; }
 
 .navbar .pull-right > li > .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right,
-.navbar #contact nav ul > li > .dropdown-menu.pull-right,
-#contact nav .navbar ul > li > .dropdown-menu.pull-right {
+.navbar #about nav ul > li > .dropdown-menu.pull-right,
+#about nav .navbar ul > li > .dropdown-menu.pull-right {
   left: auto;
   right: 0; }
   .navbar .pull-right > li > .dropdown-menu:before,
   .navbar .nav > li > .dropdown-menu.pull-right:before,
-  .navbar #contact nav ul > li > .dropdown-menu.pull-right:before,
-  #contact nav .navbar ul > li > .dropdown-menu.pull-right:before {
+  .navbar #about nav ul > li > .dropdown-menu.pull-right:before,
+  #about nav .navbar ul > li > .dropdown-menu.pull-right:before {
     left: auto;
     right: 12px; }
   .navbar .pull-right > li > .dropdown-menu:after,
   .navbar .nav > li > .dropdown-menu.pull-right:after,
-  .navbar #contact nav ul > li > .dropdown-menu.pull-right:after,
-  #contact nav .navbar ul > li > .dropdown-menu.pull-right:after {
+  .navbar #about nav ul > li > .dropdown-menu.pull-right:after,
+  #about nav .navbar ul > li > .dropdown-menu.pull-right:after {
     left: auto;
     right: 13px; }
   .navbar .pull-right > li > .dropdown-menu .dropdown-menu,
   .navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu,
-  .navbar #contact nav ul > li > .dropdown-menu.pull-right .dropdown-menu,
-  #contact nav .navbar ul > li > .dropdown-menu.pull-right .dropdown-menu {
+  .navbar #about nav ul > li > .dropdown-menu.pull-right .dropdown-menu,
+  #about nav .navbar ul > li > .dropdown-menu.pull-right .dropdown-menu {
     left: auto;
     right: 100%;
     margin-left: 0;
@@ -3964,35 +3942,35 @@ input[type="submit"].btn {
   border-color: #252525; }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a,
-.navbar-inverse #contact nav ul > li > a,
-#contact nav .navbar-inverse ul > li > a {
+.navbar-inverse #about nav ul > li > a,
+#about nav .navbar-inverse ul > li > a {
   color: #333333;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
   .navbar-inverse .brand:hover, .navbar-inverse .brand:focus,
   .navbar-inverse .nav > li > a:hover,
-  .navbar-inverse #contact nav ul > li > a:hover,
-  #contact nav .navbar-inverse ul > li > a:hover,
+  .navbar-inverse #about nav ul > li > a:hover,
+  #about nav .navbar-inverse ul > li > a:hover,
   .navbar-inverse .nav > li > a:focus,
-  .navbar-inverse #contact nav ul > li > a:focus,
-  #contact nav .navbar-inverse ul > li > a:focus {
+  .navbar-inverse #about nav ul > li > a:focus,
+  #about nav .navbar-inverse ul > li > a:focus {
     color: black; }
 .navbar-inverse .brand {
   color: #333333; }
 .navbar-inverse .navbar-text {
   color: #333333; }
-.navbar-inverse .nav > li > a:focus, .navbar-inverse #contact nav ul > li > a:focus, #contact nav .navbar-inverse ul > li > a:focus,
+.navbar-inverse .nav > li > a:focus, .navbar-inverse #about nav ul > li > a:focus, #about nav .navbar-inverse ul > li > a:focus,
 .navbar-inverse .nav > li > a:hover,
-.navbar-inverse #contact nav ul > li > a:hover,
-#contact nav .navbar-inverse ul > li > a:hover {
+.navbar-inverse #about nav ul > li > a:hover,
+#about nav .navbar-inverse ul > li > a:hover {
   background-color: transparent;
   color: black; }
-.navbar-inverse .nav .active > a, .navbar-inverse #contact nav ul .active > a, #contact nav .navbar-inverse ul .active > a,
+.navbar-inverse .nav .active > a, .navbar-inverse #about nav ul .active > a, #about nav .navbar-inverse ul .active > a,
 .navbar-inverse .nav .active > a:hover,
-.navbar-inverse #contact nav ul .active > a:hover,
-#contact nav .navbar-inverse ul .active > a:hover,
+.navbar-inverse #about nav ul .active > a:hover,
+#about nav .navbar-inverse ul .active > a:hover,
 .navbar-inverse .nav .active > a:focus,
-.navbar-inverse #contact nav ul .active > a:focus,
-#contact nav .navbar-inverse ul .active > a:focus {
+.navbar-inverse #about nav ul .active > a:focus,
+#about nav .navbar-inverse ul .active > a:focus {
   color: black;
   background-color: #111111; }
 .navbar-inverse .navbar-link {
@@ -4002,31 +3980,31 @@ input[type="submit"].btn {
 .navbar-inverse .divider-vertical {
   border-left-color: #111111;
   border-right-color: #222222; }
-.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse #contact nav ul li.dropdown.open > .dropdown-toggle, #contact nav .navbar-inverse ul li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse #about nav ul li.dropdown.open > .dropdown-toggle, #about nav .navbar-inverse ul li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
-.navbar-inverse #contact nav ul li.dropdown.active > .dropdown-toggle,
-#contact nav .navbar-inverse ul li.dropdown.active > .dropdown-toggle,
+.navbar-inverse #about nav ul li.dropdown.active > .dropdown-toggle,
+#about nav .navbar-inverse ul li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle,
-.navbar-inverse #contact nav ul li.dropdown.open.active > .dropdown-toggle,
-#contact nav .navbar-inverse ul li.dropdown.open.active > .dropdown-toggle {
+.navbar-inverse #about nav ul li.dropdown.open.active > .dropdown-toggle,
+#about nav .navbar-inverse ul li.dropdown.open.active > .dropdown-toggle {
   background-color: #111111;
   color: black; }
-.navbar-inverse .nav li.dropdown > a:hover .caret, .navbar-inverse #contact nav ul li.dropdown > a:hover .caret, #contact nav .navbar-inverse ul li.dropdown > a:hover .caret,
+.navbar-inverse .nav li.dropdown > a:hover .caret, .navbar-inverse #about nav ul li.dropdown > a:hover .caret, #about nav .navbar-inverse ul li.dropdown > a:hover .caret,
 .navbar-inverse .nav li.dropdown > a:focus .caret,
-.navbar-inverse #contact nav ul li.dropdown > a:focus .caret,
-#contact nav .navbar-inverse ul li.dropdown > a:focus .caret {
+.navbar-inverse #about nav ul li.dropdown > a:focus .caret,
+#about nav .navbar-inverse ul li.dropdown > a:focus .caret {
   border-top-color: black;
   color: black; }
-.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret, .navbar-inverse #contact nav ul li.dropdown > .dropdown-toggle .caret, #contact nav .navbar-inverse ul li.dropdown > .dropdown-toggle .caret {
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret, .navbar-inverse #about nav ul li.dropdown > .dropdown-toggle .caret, #about nav .navbar-inverse ul li.dropdown > .dropdown-toggle .caret {
   border-top-color: #333333;
   border-bottom-color: #333333; }
-.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret, .navbar-inverse #contact nav ul li.dropdown.open > .dropdown-toggle .caret, #contact nav .navbar-inverse ul li.dropdown.open > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret, .navbar-inverse #about nav ul li.dropdown.open > .dropdown-toggle .caret, #about nav .navbar-inverse ul li.dropdown.open > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
-.navbar-inverse #contact nav ul li.dropdown.active > .dropdown-toggle .caret,
-#contact nav .navbar-inverse ul li.dropdown.active > .dropdown-toggle .caret,
+.navbar-inverse #about nav ul li.dropdown.active > .dropdown-toggle .caret,
+#about nav .navbar-inverse ul li.dropdown.active > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret,
-.navbar-inverse #contact nav ul li.dropdown.open.active > .dropdown-toggle .caret,
-#contact nav .navbar-inverse ul li.dropdown.open.active > .dropdown-toggle .caret {
+.navbar-inverse #about nav ul li.dropdown.open.active > .dropdown-toggle .caret,
+#about nav .navbar-inverse ul li.dropdown.open.active > .dropdown-toggle .caret {
   border-top-color: black;
   border-bottom-color: black; }
 .navbar-inverse .navbar-search .search-query {
@@ -5199,7 +5177,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row:after, #contact:after, #updates:after {
       clear: both; }
 
-  [class*="span"], #header #name, #header #qrcode, #header #myself, #contact nav, #updates > div {
+  [class*="span"], #header #name, #header #qrcode, #header #myself, #updates > div {
     float: left;
     min-height: 1px;
     margin-left: 30px; }
@@ -5246,7 +5224,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .span11 {
     width: 1070px; }
 
-  .span12, #contact nav {
+  .span12 {
     width: 1170px; }
 
   .offset1 {
@@ -5294,7 +5272,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       line-height: 0; }
     .row-fluid:after {
       clear: both; }
-    .row-fluid [class*="span"], .row-fluid #header #name, #header .row-fluid #name, .row-fluid #header #qrcode, #header .row-fluid #qrcode, .row-fluid #header #myself, #header .row-fluid #myself, .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates > div {
+    .row-fluid [class*="span"], .row-fluid #header #name, #header .row-fluid #name, .row-fluid #header #qrcode, #header .row-fluid #qrcode, .row-fluid #header #myself, #header .row-fluid #myself, .row-fluid #updates > div {
       display: block;
       width: 100%;
       min-height: 30px;
@@ -5304,9 +5282,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       float: left;
       margin-left: 2.5641%;
       *margin-left: 2.51091%; }
-    .row-fluid [class*="span"]:first-child, .row-fluid #header #name:first-child, #header .row-fluid #name:first-child, .row-fluid #header #qrcode:first-child, #header .row-fluid #qrcode:first-child, .row-fluid #header #myself:first-child, #header .row-fluid #myself:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates > div:first-child {
+    .row-fluid [class*="span"]:first-child, .row-fluid #header #name:first-child, #header .row-fluid #name:first-child, .row-fluid #header #qrcode:first-child, #header .row-fluid #qrcode:first-child, .row-fluid #header #myself:first-child, #header .row-fluid #myself:first-child, .row-fluid #updates > div:first-child {
       margin-left: 0; }
-    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #header #name + [class*="span"], #header .row-fluid .controls-row #name + [class*="span"], .row-fluid .controls-row #header #qrcode + [class*="span"], #header .row-fluid .controls-row #qrcode + [class*="span"], .row-fluid .controls-row #header #myself + [class*="span"], #header .row-fluid .controls-row #myself + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #header [class*="span"] + #name, #header .row-fluid .controls-row [class*="span"] + #name, .row-fluid .controls-row #header #name + #name, #header .row-fluid .controls-row #name + #name, .row-fluid .controls-row #header #qrcode + #name, #header .row-fluid .controls-row #qrcode + #name, .row-fluid .controls-row #header #myself + #name, #header .row-fluid .controls-row #myself + #name, .row-fluid .controls-row #contact #header nav + #name, #header .row-fluid .controls-row #contact nav + #name, #contact .row-fluid .controls-row #header nav + #name, #header #contact .row-fluid .controls-row nav + #name, .row-fluid .controls-row #header #updates > div + #name, #header .row-fluid .controls-row #updates > div + #name, .row-fluid .controls-row #header [class*="span"] + #qrcode, #header .row-fluid .controls-row [class*="span"] + #qrcode, .row-fluid .controls-row #header #name + #qrcode, #header .row-fluid .controls-row #name + #qrcode, .row-fluid .controls-row #header #qrcode + #qrcode, #header .row-fluid .controls-row #qrcode + #qrcode, .row-fluid .controls-row #header #myself + #qrcode, #header .row-fluid .controls-row #myself + #qrcode, .row-fluid .controls-row #contact #header nav + #qrcode, #header .row-fluid .controls-row #contact nav + #qrcode, #contact .row-fluid .controls-row #header nav + #qrcode, #header #contact .row-fluid .controls-row nav + #qrcode, .row-fluid .controls-row #header #updates > div + #qrcode, #header .row-fluid .controls-row #updates > div + #qrcode, .row-fluid .controls-row #header [class*="span"] + #myself, #header .row-fluid .controls-row [class*="span"] + #myself, .row-fluid .controls-row #header #name + #myself, #header .row-fluid .controls-row #name + #myself, .row-fluid .controls-row #header #qrcode + #myself, #header .row-fluid .controls-row #qrcode + #myself, .row-fluid .controls-row #header #myself + #myself, #header .row-fluid .controls-row #myself + #myself, .row-fluid .controls-row #contact #header nav + #myself, #header .row-fluid .controls-row #contact nav + #myself, #contact .row-fluid .controls-row #header nav + #myself, #header #contact .row-fluid .controls-row nav + #myself, .row-fluid .controls-row #header #updates > div + #myself, #header .row-fluid .controls-row #updates > div + #myself, .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #header #contact #name + nav, #contact .row-fluid .controls-row #header #name + nav, #header .row-fluid .controls-row #contact #name + nav, #contact #header .row-fluid .controls-row #name + nav, .row-fluid .controls-row #header #contact #qrcode + nav, #contact .row-fluid .controls-row #header #qrcode + nav, #header .row-fluid .controls-row #contact #qrcode + nav, #contact #header .row-fluid .controls-row #qrcode + nav, .row-fluid .controls-row #header #contact #myself + nav, #contact .row-fluid .controls-row #header #myself + nav, #header .row-fluid .controls-row #contact #myself + nav, #contact #header .row-fluid .controls-row #myself + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #contact #updates > div + nav, #contact .row-fluid .controls-row #updates > div + nav, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #header #updates > #name + div, #header .row-fluid .controls-row #updates > #name + div, .row-fluid .controls-row #header #updates > #qrcode + div, #header .row-fluid .controls-row #updates > #qrcode + div, .row-fluid .controls-row #header #updates > #myself + div, #header .row-fluid .controls-row #updates > #myself + div, .row-fluid .controls-row #contact #updates > nav + div, #contact .row-fluid .controls-row #updates > nav + div, .row-fluid .controls-row #updates > div + div {
+    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #header #name + [class*="span"], #header .row-fluid .controls-row #name + [class*="span"], .row-fluid .controls-row #header #qrcode + [class*="span"], #header .row-fluid .controls-row #qrcode + [class*="span"], .row-fluid .controls-row #header #myself + [class*="span"], #header .row-fluid .controls-row #myself + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #header [class*="span"] + #name, #header .row-fluid .controls-row [class*="span"] + #name, .row-fluid .controls-row #header #name + #name, #header .row-fluid .controls-row #name + #name, .row-fluid .controls-row #header #qrcode + #name, #header .row-fluid .controls-row #qrcode + #name, .row-fluid .controls-row #header #myself + #name, #header .row-fluid .controls-row #myself + #name, .row-fluid .controls-row #header #updates > div + #name, #header .row-fluid .controls-row #updates > div + #name, .row-fluid .controls-row #header [class*="span"] + #qrcode, #header .row-fluid .controls-row [class*="span"] + #qrcode, .row-fluid .controls-row #header #name + #qrcode, #header .row-fluid .controls-row #name + #qrcode, .row-fluid .controls-row #header #qrcode + #qrcode, #header .row-fluid .controls-row #qrcode + #qrcode, .row-fluid .controls-row #header #myself + #qrcode, #header .row-fluid .controls-row #myself + #qrcode, .row-fluid .controls-row #header #updates > div + #qrcode, #header .row-fluid .controls-row #updates > div + #qrcode, .row-fluid .controls-row #header [class*="span"] + #myself, #header .row-fluid .controls-row [class*="span"] + #myself, .row-fluid .controls-row #header #name + #myself, #header .row-fluid .controls-row #name + #myself, .row-fluid .controls-row #header #qrcode + #myself, #header .row-fluid .controls-row #qrcode + #myself, .row-fluid .controls-row #header #myself + #myself, #header .row-fluid .controls-row #myself + #myself, .row-fluid .controls-row #header #updates > div + #myself, #header .row-fluid .controls-row #updates > div + #myself, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #header #updates > #name + div, #header .row-fluid .controls-row #updates > #name + div, .row-fluid .controls-row #header #updates > #qrcode + div, #header .row-fluid .controls-row #updates > #qrcode + div, .row-fluid .controls-row #header #updates > #myself + div, #header .row-fluid .controls-row #updates > #myself + div, .row-fluid .controls-row #updates > div + div {
       margin-left: 2.5641%; }
     .row-fluid .span1 {
       width: 5.98291%;
@@ -5341,7 +5319,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row-fluid .span11 {
       width: 91.45299%;
       *width: 91.3998%; }
-    .row-fluid .span12, .row-fluid #contact nav, #contact .row-fluid nav {
+    .row-fluid .span12 {
       width: 100%;
       *width: 99.94681%; }
     .row-fluid .offset1 {
@@ -5422,7 +5400,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .uneditable-input {
     margin-left: 0; }
 
-  .controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #contact #header nav + #name, #header .controls-row #contact nav + #name, #contact .controls-row #header nav + #name, #header #contact .controls-row nav + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #contact #header nav + #qrcode, #header .controls-row #contact nav + #qrcode, #contact .controls-row #header nav + #qrcode, #header #contact .controls-row nav + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #contact #header nav + #myself, #header .controls-row #contact nav + #myself, #contact .controls-row #header nav + #myself, #header #contact .controls-row nav + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #header #contact #name + nav, #contact .controls-row #header #name + nav, #header .controls-row #contact #name + nav, #contact #header .controls-row #name + nav, .controls-row #header #contact #qrcode + nav, #contact .controls-row #header #qrcode + nav, #header .controls-row #contact #qrcode + nav, #contact #header .controls-row #qrcode + nav, .controls-row #header #contact #myself + nav, #contact .controls-row #header #myself + nav, #header .controls-row #contact #myself + nav, #contact #header .controls-row #myself + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+  .controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #updates > div + div {
     margin-left: 30px; }
 
   input.span1,
@@ -5489,8 +5467,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
   input.span12,
   textarea.span12,
-  .uneditable-input.span12,
-  #contact nav.uneditable-input {
+  .uneditable-input.span12 {
     width: 1156px; }
 
   .thumbnails {
@@ -5512,7 +5489,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row:after, #contact:after, #updates:after {
       clear: both; }
 
-  [class*="span"], #header #name, #header #qrcode, #header #myself, #contact nav, #updates > div {
+  [class*="span"], #header #name, #header #qrcode, #header #myself, #updates > div {
     float: left;
     min-height: 1px;
     margin-left: 20px; }
@@ -5559,7 +5536,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .span11 {
     width: 662px; }
 
-  .span12, #contact nav {
+  .span12 {
     width: 724px; }
 
   .offset1 {
@@ -5607,7 +5584,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       line-height: 0; }
     .row-fluid:after {
       clear: both; }
-    .row-fluid [class*="span"], .row-fluid #header #name, #header .row-fluid #name, .row-fluid #header #qrcode, #header .row-fluid #qrcode, .row-fluid #header #myself, #header .row-fluid #myself, .row-fluid #contact nav, #contact .row-fluid nav, .row-fluid #updates > div {
+    .row-fluid [class*="span"], .row-fluid #header #name, #header .row-fluid #name, .row-fluid #header #qrcode, #header .row-fluid #qrcode, .row-fluid #header #myself, #header .row-fluid #myself, .row-fluid #updates > div {
       display: block;
       width: 100%;
       min-height: 30px;
@@ -5617,9 +5594,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
       float: left;
       margin-left: 2.76243%;
       *margin-left: 2.70924%; }
-    .row-fluid [class*="span"]:first-child, .row-fluid #header #name:first-child, #header .row-fluid #name:first-child, .row-fluid #header #qrcode:first-child, #header .row-fluid #qrcode:first-child, .row-fluid #header #myself:first-child, #header .row-fluid #myself:first-child, .row-fluid #contact nav:first-child, #contact .row-fluid nav:first-child, .row-fluid #updates > div:first-child {
+    .row-fluid [class*="span"]:first-child, .row-fluid #header #name:first-child, #header .row-fluid #name:first-child, .row-fluid #header #qrcode:first-child, #header .row-fluid #qrcode:first-child, .row-fluid #header #myself:first-child, #header .row-fluid #myself:first-child, .row-fluid #updates > div:first-child {
       margin-left: 0; }
-    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #header #name + [class*="span"], #header .row-fluid .controls-row #name + [class*="span"], .row-fluid .controls-row #header #qrcode + [class*="span"], #header .row-fluid .controls-row #qrcode + [class*="span"], .row-fluid .controls-row #header #myself + [class*="span"], #header .row-fluid .controls-row #myself + [class*="span"], .row-fluid .controls-row #contact nav + [class*="span"], #contact .row-fluid .controls-row nav + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #header [class*="span"] + #name, #header .row-fluid .controls-row [class*="span"] + #name, .row-fluid .controls-row #header #name + #name, #header .row-fluid .controls-row #name + #name, .row-fluid .controls-row #header #qrcode + #name, #header .row-fluid .controls-row #qrcode + #name, .row-fluid .controls-row #header #myself + #name, #header .row-fluid .controls-row #myself + #name, .row-fluid .controls-row #contact #header nav + #name, #header .row-fluid .controls-row #contact nav + #name, #contact .row-fluid .controls-row #header nav + #name, #header #contact .row-fluid .controls-row nav + #name, .row-fluid .controls-row #header #updates > div + #name, #header .row-fluid .controls-row #updates > div + #name, .row-fluid .controls-row #header [class*="span"] + #qrcode, #header .row-fluid .controls-row [class*="span"] + #qrcode, .row-fluid .controls-row #header #name + #qrcode, #header .row-fluid .controls-row #name + #qrcode, .row-fluid .controls-row #header #qrcode + #qrcode, #header .row-fluid .controls-row #qrcode + #qrcode, .row-fluid .controls-row #header #myself + #qrcode, #header .row-fluid .controls-row #myself + #qrcode, .row-fluid .controls-row #contact #header nav + #qrcode, #header .row-fluid .controls-row #contact nav + #qrcode, #contact .row-fluid .controls-row #header nav + #qrcode, #header #contact .row-fluid .controls-row nav + #qrcode, .row-fluid .controls-row #header #updates > div + #qrcode, #header .row-fluid .controls-row #updates > div + #qrcode, .row-fluid .controls-row #header [class*="span"] + #myself, #header .row-fluid .controls-row [class*="span"] + #myself, .row-fluid .controls-row #header #name + #myself, #header .row-fluid .controls-row #name + #myself, .row-fluid .controls-row #header #qrcode + #myself, #header .row-fluid .controls-row #qrcode + #myself, .row-fluid .controls-row #header #myself + #myself, #header .row-fluid .controls-row #myself + #myself, .row-fluid .controls-row #contact #header nav + #myself, #header .row-fluid .controls-row #contact nav + #myself, #contact .row-fluid .controls-row #header nav + #myself, #header #contact .row-fluid .controls-row nav + #myself, .row-fluid .controls-row #header #updates > div + #myself, #header .row-fluid .controls-row #updates > div + #myself, .row-fluid .controls-row #contact [class*="span"] + nav, #contact .row-fluid .controls-row [class*="span"] + nav, .row-fluid .controls-row #header #contact #name + nav, #contact .row-fluid .controls-row #header #name + nav, #header .row-fluid .controls-row #contact #name + nav, #contact #header .row-fluid .controls-row #name + nav, .row-fluid .controls-row #header #contact #qrcode + nav, #contact .row-fluid .controls-row #header #qrcode + nav, #header .row-fluid .controls-row #contact #qrcode + nav, #contact #header .row-fluid .controls-row #qrcode + nav, .row-fluid .controls-row #header #contact #myself + nav, #contact .row-fluid .controls-row #header #myself + nav, #header .row-fluid .controls-row #contact #myself + nav, #contact #header .row-fluid .controls-row #myself + nav, .row-fluid .controls-row #contact nav + nav, #contact .row-fluid .controls-row nav + nav, .row-fluid .controls-row #contact #updates > div + nav, #contact .row-fluid .controls-row #updates > div + nav, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #header #updates > #name + div, #header .row-fluid .controls-row #updates > #name + div, .row-fluid .controls-row #header #updates > #qrcode + div, #header .row-fluid .controls-row #updates > #qrcode + div, .row-fluid .controls-row #header #updates > #myself + div, #header .row-fluid .controls-row #updates > #myself + div, .row-fluid .controls-row #contact #updates > nav + div, #contact .row-fluid .controls-row #updates > nav + div, .row-fluid .controls-row #updates > div + div {
+    .row-fluid .controls-row [class*="span"] + [class*="span"], .row-fluid .controls-row #header #name + [class*="span"], #header .row-fluid .controls-row #name + [class*="span"], .row-fluid .controls-row #header #qrcode + [class*="span"], #header .row-fluid .controls-row #qrcode + [class*="span"], .row-fluid .controls-row #header #myself + [class*="span"], #header .row-fluid .controls-row #myself + [class*="span"], .row-fluid .controls-row #updates > div + [class*="span"], .row-fluid .controls-row #header [class*="span"] + #name, #header .row-fluid .controls-row [class*="span"] + #name, .row-fluid .controls-row #header #name + #name, #header .row-fluid .controls-row #name + #name, .row-fluid .controls-row #header #qrcode + #name, #header .row-fluid .controls-row #qrcode + #name, .row-fluid .controls-row #header #myself + #name, #header .row-fluid .controls-row #myself + #name, .row-fluid .controls-row #header #updates > div + #name, #header .row-fluid .controls-row #updates > div + #name, .row-fluid .controls-row #header [class*="span"] + #qrcode, #header .row-fluid .controls-row [class*="span"] + #qrcode, .row-fluid .controls-row #header #name + #qrcode, #header .row-fluid .controls-row #name + #qrcode, .row-fluid .controls-row #header #qrcode + #qrcode, #header .row-fluid .controls-row #qrcode + #qrcode, .row-fluid .controls-row #header #myself + #qrcode, #header .row-fluid .controls-row #myself + #qrcode, .row-fluid .controls-row #header #updates > div + #qrcode, #header .row-fluid .controls-row #updates > div + #qrcode, .row-fluid .controls-row #header [class*="span"] + #myself, #header .row-fluid .controls-row [class*="span"] + #myself, .row-fluid .controls-row #header #name + #myself, #header .row-fluid .controls-row #name + #myself, .row-fluid .controls-row #header #qrcode + #myself, #header .row-fluid .controls-row #qrcode + #myself, .row-fluid .controls-row #header #myself + #myself, #header .row-fluid .controls-row #myself + #myself, .row-fluid .controls-row #header #updates > div + #myself, #header .row-fluid .controls-row #updates > div + #myself, .row-fluid .controls-row #updates > [class*="span"] + div, .row-fluid .controls-row #header #updates > #name + div, #header .row-fluid .controls-row #updates > #name + div, .row-fluid .controls-row #header #updates > #qrcode + div, #header .row-fluid .controls-row #updates > #qrcode + div, .row-fluid .controls-row #header #updates > #myself + div, #header .row-fluid .controls-row #updates > #myself + div, .row-fluid .controls-row #updates > div + div {
       margin-left: 2.76243%; }
     .row-fluid .span1 {
       width: 5.8011%;
@@ -5654,7 +5631,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     .row-fluid .span11 {
       width: 91.43646%;
       *width: 91.38327%; }
-    .row-fluid .span12, .row-fluid #contact nav, #contact .row-fluid nav {
+    .row-fluid .span12 {
       width: 100%;
       *width: 99.94681%; }
     .row-fluid .offset1 {
@@ -5735,7 +5712,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .uneditable-input {
     margin-left: 0; }
 
-  .controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #contact #header nav + #name, #header .controls-row #contact nav + #name, #contact .controls-row #header nav + #name, #header #contact .controls-row nav + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #contact #header nav + #qrcode, #header .controls-row #contact nav + #qrcode, #contact .controls-row #header nav + #qrcode, #header #contact .controls-row nav + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #contact #header nav + #myself, #header .controls-row #contact nav + #myself, #contact .controls-row #header nav + #myself, #header #contact .controls-row nav + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #header #contact #name + nav, #contact .controls-row #header #name + nav, #header .controls-row #contact #name + nav, #contact #header .controls-row #name + nav, .controls-row #header #contact #qrcode + nav, #contact .controls-row #header #qrcode + nav, #header .controls-row #contact #qrcode + nav, #contact #header .controls-row #qrcode + nav, .controls-row #header #contact #myself + nav, #contact .controls-row #header #myself + nav, #header .controls-row #contact #myself + nav, #contact #header .controls-row #myself + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+  .controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #updates > div + div {
     margin-left: 20px; }
 
   input.span1,
@@ -5802,8 +5779,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
   input.span12,
   textarea.span12,
-  .uneditable-input.span12,
-  #contact nav.uneditable-input {
+  .uneditable-input.span12 {
     width: 710px; } }
 @media (max-width: 767px) {
   body {
@@ -5841,12 +5817,11 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     float: none;
     margin-left: 0; }
 
-  [class*="span"], #header #name, #header #qrcode, #header #myself, #contact nav, #updates > div,
+  [class*="span"], #header #name, #header #qrcode, #header #myself, #updates > div,
   .uneditable-input[class*="span"],
   #header .uneditable-input#name,
   #header .uneditable-input#qrcode,
   #header .uneditable-input#myself,
-  #contact nav.uneditable-input,
   #updates > div.uneditable-input,
   .row-fluid [class*="span"],
   .row-fluid #header #name,
@@ -5855,8 +5830,6 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   #header .row-fluid #qrcode,
   .row-fluid #header #myself,
   #header .row-fluid #myself,
-  .row-fluid #contact nav,
-  #contact .row-fluid nav,
   .row-fluid #updates > div {
     float: none;
     display: block;
@@ -5866,10 +5839,8 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
 
-  .span12, #contact nav,
-  .row-fluid .span12,
-  .row-fluid #contact nav,
-  #contact .row-fluid nav {
+  .span12,
+  .row-fluid .span12 {
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -5920,7 +5891,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     display: inline-block;
     width: auto; }
 
-  .controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #contact nav + [class*="span"], #contact .controls-row nav + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #contact #header nav + #name, #header .controls-row #contact nav + #name, #contact .controls-row #header nav + #name, #header #contact .controls-row nav + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #contact #header nav + #qrcode, #header .controls-row #contact nav + #qrcode, #contact .controls-row #header nav + #qrcode, #header #contact .controls-row nav + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #contact #header nav + #myself, #header .controls-row #contact nav + #myself, #contact .controls-row #header nav + #myself, #header #contact .controls-row nav + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #contact [class*="span"] + nav, #contact .controls-row [class*="span"] + nav, .controls-row #header #contact #name + nav, #contact .controls-row #header #name + nav, #header .controls-row #contact #name + nav, #contact #header .controls-row #name + nav, .controls-row #header #contact #qrcode + nav, #contact .controls-row #header #qrcode + nav, #header .controls-row #contact #qrcode + nav, #contact #header .controls-row #qrcode + nav, .controls-row #header #contact #myself + nav, #contact .controls-row #header #myself + nav, #header .controls-row #contact #myself + nav, #contact #header .controls-row #myself + nav, .controls-row #contact nav + nav, #contact .controls-row nav + nav, .controls-row #contact #updates > div + nav, #contact .controls-row #updates > div + nav, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #contact #updates > nav + div, #contact .controls-row #updates > nav + div, .controls-row #updates > div + div {
+  .controls-row [class*="span"] + [class*="span"], .controls-row #header #name + [class*="span"], #header .controls-row #name + [class*="span"], .controls-row #header #qrcode + [class*="span"], #header .controls-row #qrcode + [class*="span"], .controls-row #header #myself + [class*="span"], #header .controls-row #myself + [class*="span"], .controls-row #updates > div + [class*="span"], .controls-row #header [class*="span"] + #name, #header .controls-row [class*="span"] + #name, .controls-row #header #name + #name, #header .controls-row #name + #name, .controls-row #header #qrcode + #name, #header .controls-row #qrcode + #name, .controls-row #header #myself + #name, #header .controls-row #myself + #name, .controls-row #header #updates > div + #name, #header .controls-row #updates > div + #name, .controls-row #header [class*="span"] + #qrcode, #header .controls-row [class*="span"] + #qrcode, .controls-row #header #name + #qrcode, #header .controls-row #name + #qrcode, .controls-row #header #qrcode + #qrcode, #header .controls-row #qrcode + #qrcode, .controls-row #header #myself + #qrcode, #header .controls-row #myself + #qrcode, .controls-row #header #updates > div + #qrcode, #header .controls-row #updates > div + #qrcode, .controls-row #header [class*="span"] + #myself, #header .controls-row [class*="span"] + #myself, .controls-row #header #name + #myself, #header .controls-row #name + #myself, .controls-row #header #qrcode + #myself, #header .controls-row #qrcode + #myself, .controls-row #header #myself + #myself, #header .controls-row #myself + #myself, .controls-row #header #updates > div + #myself, #header .controls-row #updates > div + #myself, .controls-row #updates > [class*="span"] + div, .controls-row #header #updates > #name + div, #header .controls-row #updates > #name + div, .controls-row #header #updates > #qrcode + div, #header .controls-row #updates > #qrcode + div, .controls-row #header #updates > #myself + div, #header .controls-row #updates > #myself + div, .controls-row #updates > div + div {
     margin-left: 0; }
 
   .modal {
@@ -6010,24 +5981,24 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .nav-collapse {
     clear: both; }
 
-  .nav-collapse .nav, .nav-collapse #contact nav ul, #contact nav .nav-collapse ul {
+  .nav-collapse .nav, .nav-collapse #about nav ul, #about nav .nav-collapse ul {
     float: none;
     margin: 0 0 10px; }
 
-  .nav-collapse .nav > li, .nav-collapse #contact nav ul > li, #contact nav .nav-collapse ul > li {
+  .nav-collapse .nav > li, .nav-collapse #about nav ul > li, #about nav .nav-collapse ul > li {
     float: none; }
 
-  .nav-collapse .nav > li > a, .nav-collapse #contact nav ul > li > a, #contact nav .nav-collapse ul > li > a {
+  .nav-collapse .nav > li > a, .nav-collapse #about nav ul > li > a, #about nav .nav-collapse ul > li > a {
     margin-bottom: 2px; }
 
-  .nav-collapse .nav > .divider-vertical, .nav-collapse #contact nav ul > .divider-vertical, #contact nav .nav-collapse ul > .divider-vertical {
+  .nav-collapse .nav > .divider-vertical, .nav-collapse #about nav ul > .divider-vertical, #about nav .nav-collapse ul > .divider-vertical {
     display: none; }
 
-  .nav-collapse .nav .nav-header, .nav-collapse #contact nav ul .nav-header, #contact nav .nav-collapse ul .nav-header {
+  .nav-collapse .nav .nav-header, .nav-collapse #about nav ul .nav-header, #about nav .nav-collapse ul .nav-header {
     color: #777777;
     text-shadow: none; }
 
-  .nav-collapse .nav > li > a, .nav-collapse #contact nav ul > li > a, #contact nav .nav-collapse ul > li > a,
+  .nav-collapse .nav > li > a, .nav-collapse #about nav ul > li > a, #about nav .nav-collapse ul > li > a,
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
     font-weight: bold;
@@ -6046,22 +6017,22 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 2px; }
 
-  .nav-collapse .nav > li > a:hover, .nav-collapse #contact nav ul > li > a:hover, #contact nav .nav-collapse ul > li > a:hover,
+  .nav-collapse .nav > li > a:hover, .nav-collapse #about nav ul > li > a:hover, #about nav .nav-collapse ul > li > a:hover,
   .nav-collapse .nav > li > a:focus,
-  .nav-collapse #contact nav ul > li > a:focus,
-  #contact nav .nav-collapse ul > li > a:focus,
+  .nav-collapse #about nav ul > li > a:focus,
+  #about nav .nav-collapse ul > li > a:focus,
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
     background-color: #f2f2f2; }
 
-  .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse #contact nav ul > li > a, #contact nav .navbar-inverse .nav-collapse ul > li > a,
+  .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse #about nav ul > li > a, #about nav .navbar-inverse .nav-collapse ul > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
     color: #333333; }
 
-  .navbar-inverse .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse #contact nav ul > li > a:hover, #contact nav .navbar-inverse .nav-collapse ul > li > a:hover,
+  .navbar-inverse .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse #about nav ul > li > a:hover, #about nav .navbar-inverse .nav-collapse ul > li > a:hover,
   .navbar-inverse .nav-collapse .nav > li > a:focus,
-  .navbar-inverse .nav-collapse #contact nav ul > li > a:focus,
-  #contact nav .navbar-inverse .nav-collapse ul > li > a:focus,
+  .navbar-inverse .nav-collapse #about nav ul > li > a:focus,
+  #about nav .navbar-inverse .nav-collapse ul > li > a:focus,
   .navbar-inverse .nav-collapse .dropdown-menu a:hover,
   .navbar-inverse .nav-collapse .dropdown-menu a:focus {
     background-color: #111111; }
@@ -6098,7 +6069,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .nav-collapse .dropdown-menu .divider {
     display: none; }
 
-  .nav-collapse .nav > li > .dropdown-menu:before, .nav-collapse #contact nav ul > li > .dropdown-menu:before, #contact nav .nav-collapse ul > li > .dropdown-menu:before, .nav-collapse .nav > li > .dropdown-menu:after, .nav-collapse #contact nav ul > li > .dropdown-menu:after, #contact nav .nav-collapse ul > li > .dropdown-menu:after {
+  .nav-collapse .nav > li > .dropdown-menu:before, .nav-collapse #about nav ul > li > .dropdown-menu:before, #about nav .nav-collapse ul > li > .dropdown-menu:before, .nav-collapse .nav > li > .dropdown-menu:after, .nav-collapse #about nav ul > li > .dropdown-menu:after, #about nav .nav-collapse ul > li > .dropdown-menu:after {
     display: none; }
 
   .nav-collapse .navbar-form,
@@ -6117,7 +6088,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     border-top-color: #111111;
     border-bottom-color: #111111; }
 
-  .navbar .nav-collapse .nav.pull-right, .navbar .nav-collapse #contact nav ul.pull-right, #contact nav .navbar .nav-collapse ul.pull-right {
+  .navbar .nav-collapse .nav.pull-right, .navbar .nav-collapse #about nav ul.pull-right, #about nav .navbar .nav-collapse ul.pull-right {
     float: none;
     margin-left: 0; }
 
@@ -6185,15 +6156,6 @@ h2, h3, h4 {
   #header #qrcode img {
     opacity: 0.85; }
 
-#contact nav {
-  text-align: center; }
-  #contact nav ul {
-    display: inline-block; }
-    #contact nav ul li {
-      display: inline; }
-      #contact nav ul li a {
-        float: left; }
-
 #about {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -6210,15 +6172,19 @@ h2, h3, h4 {
   padding: 0 20px;
   background-color: #eeeeee;
   max-width: 798px;
-  margin: 0 auto 20px; }
-  #about > * {
+  margin: 20px auto; }
+  #about h3, #about p {
     margin-bottom: 20px; }
-  #about p {
-    color: #333333;
-    font-size: 16px; }
   #about h3 {
     text-shadow: 0px 1px 1px #141414;
     color: #555555; }
+  #about p {
+    color: #333333;
+    font-size: 16px; }
+  #about nav {
+    text-align: center; }
+    #about nav ul {
+      display: inline-block; }
 
 #updates h3, #updates h4 {
   text-shadow: 0px 1px 1px #141414;
