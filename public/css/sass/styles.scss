@@ -77,24 +77,20 @@ h2, h3, h4 {
 }
 
 #about {
-	@include border-radius(20px);
+	@include border-radius(10px);
 	@include box-sizing(border-box);
-	@include box-shadow(0 0 15px 0 $grayDarker);
-	border-color: lighten($bodyBackground, 60%);
-	border-width: 1px;
-	border-style: solid;
-	padding: 0 20px;
+	@include box-shadow(inset 0 0 10px 1px $grayLighter);
+	margin-top: 20px;
+	padding: 10px 20px;
 	background-color: $grayDarker;
-	max-width: 798px;
-	margin: 20px auto;
 
 	h3, p {
-		margin-bottom: 20px;
+		max-width: 798px;
+		margin: 20px auto;
 	}
 
 	h3 {
 		text-shadow: 0px 1px 1px rgba(20, 20, 20, 1);
-		color: $gray;
 	}
 
 	p {

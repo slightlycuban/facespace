@@ -6157,27 +6157,23 @@ h2, h3, h4 {
     opacity: 0.85; }
 
 #about {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-box-shadow: 0 0 15px 0 #eeeeee;
-  -moz-box-shadow: 0 0 15px 0 #eeeeee;
-  box-shadow: 0 0 15px 0 #eeeeee;
-  border-color: rgba(174, 189, 216, 0.95);
-  border-width: 1px;
-  border-style: solid;
-  padding: 0 20px;
-  background-color: #eeeeee;
-  max-width: 798px;
-  margin: 20px auto; }
+  -webkit-box-shadow: inset 0 0 10px 1px #222222;
+  -moz-box-shadow: inset 0 0 10px 1px #222222;
+  box-shadow: inset 0 0 10px 1px #222222;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #eeeeee; }
   #about h3, #about p {
-    margin-bottom: 20px; }
+    max-width: 798px;
+    margin: 20px auto; }
   #about h3 {
-    text-shadow: 0px 1px 1px #141414;
-    color: #555555; }
+    text-shadow: 0px 1px 1px #141414; }
   #about p {
     color: #333333;
     font-size: 16px; }
